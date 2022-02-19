@@ -238,8 +238,8 @@ th {
 		text-decoration: underline;
 	}
 
-	a[href]:after {
-		content: " (" attr(href) ")";
+	a[src]:after {
+		content: " (" attr(src) ")";
 	}
 
 	abbr[title]:after {
