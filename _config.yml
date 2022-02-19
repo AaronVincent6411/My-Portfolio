@@ -13,7 +13,7 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: <strong><a href="https://twitter.com/6411Aaron?s=08"> aaronvincent6411 </a></strong>
+    twitter: 
     github:  jekyll
     # devto: jekyll
     # dribbble: jekyll
