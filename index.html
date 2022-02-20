@@ -101,6 +101,43 @@
                          data-animate-effect="fadeInLeft">
                         <div class="about-desc">
                            <h1>Skills</h1>
+                           <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+			   <script>
+			    $(function() {
+
+
+   var people = [];
+
+   $.getJSON('db.json', function(data) {
+       $.each(data.skills, function(i, f) {
+          var tblRow = "<tr>" + "<td>" + f.title + "</td>" +
+           "<td>" + f.skillname + "</td>" + "<td>" + f.color + "</td>" + "<td>" 
+           $(tblRow).appendTo("#userdata tbody");
+     });
+
+   });
+
+});
+</script>
+</head>
+
+<body>
+
+<div class="wrapper">
+<div class="profile">
+   <table id= "skill" border="2">
+  <thead>
+            <th>title</th>
+            <th>skillname</th>
+            <th>color</th>
+        </thead>
+      <tbody>
+
+       </tbody>
+   </table>
+
+</div>
+</div>
                         </div>
                      </div>
                      <div id="js/skills" class="row">
