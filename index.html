@@ -101,43 +101,38 @@
                          data-animate-effect="fadeInLeft">
                         <div class="about-desc">
                            <h1>Skills</h1>
-                           <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
-			   <script>
-			    $(function() {
-
-
-   var people = [];
-
-   $.getJSON('db.json', function(data) {
-       $.each(data.skills, function(i, f) {
-          var tblRow = "<tr>" + "<td>" + f.title + "</td>" +
-           "<td>" + f.skillname + "</td>" + "<td>" + f.color + "</td>" + "<td>" 
-           $(tblRow).appendTo("#userdata tbody");
-     });
-
-   });
-
-});
-</script>
-</head>
-
-<body>
-
-<div class="wrapper">
-<div class="profile">
-   <table id= "skill" border="2">
-  <thead>
-            <th>title</th>
-            <th>skillname</th>
-            <th>color</th>
-        </thead>
-      <tbody>
-
-       </tbody>
-   </table>
-
-</div>
-</div>
+                           skills: [
+		{
+			title: "Languages",
+			skillName: "C++,Python,C,Java",
+			color: "1",
+		},
+		{
+			title: "Clouds",
+			skillName: "Google Cloud Console",
+			color: "3",
+		},
+		{
+			title: "Poster Design Tools",
+			skillName: "Canva,GIMP",
+			color: "4",
+		},
+		{
+			title: "Communication Skill",
+			skillName: "Friendly, Confident, Respect, Leadership",
+			color: "5",
+		},
+		{
+			title: "IDEs using",
+			skillName: "VS Code, Pycharm",
+			color: "6",
+		},
+		{
+			title: "Linux",
+			skillName: "Ubuntu,Fedora",
+			color: "7",
+		},
+	],
                         </div>
                      </div>
                      <div id="js/skills" class="row">
