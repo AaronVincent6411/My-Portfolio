@@ -102,7 +102,7 @@
                         <div class="about-desc">
                            <h1>Skills</h1>
 				<div id="myData"></div>
-			    fetch('js/skills.js')
+			    fetch('skills.js')
 				.then(function(response)
 				   { 
 				    return response.json();
@@ -121,7 +121,7 @@
 				function appendData(data)
 				 {
 				   var mainContainer = document.getElementByID("myData");
-				   for(var i=0;i<data.length;i++)
+				   for(var i=0;i < data.length; i++)
 				     {
 					var div = document.createElement("div");
 					div.innerHTML = 'Title:' + data[i].title + ' ' +data[i].skillname;
