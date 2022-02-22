@@ -102,33 +102,7 @@
                         <div class="about-desc">
                            <h1>Skills</h1>
 				<div id="skills"></div>
-			    fetch('skills.js')
-				.then(function(response)
-				   { 
-				    return response.json();
-				   }
-				 )
-				.then(function(data)
-				   { 
-				    appendData(data);
-				   }
-				 )
-				.catch(function(err)
-				   { 
-				    console.log(err);
-				   }
-				 );
-				function appendData(data)
-				 {
-				   var mainContainer = document.getElementByID("skills");
-				   for(var i=0;i < data.length; i++)
-				     {
-					var div = document.createElement("div");
-					div.innerHTML = 'Title:' + data[i].title + ' ' +data[i].skillname;
-					mainContainer.appendChild(div)
-				     }
-				 }
-                       </div>
+		      </div>
                      </div>
                      <div id="js/skills" class="row">
                      </div>
