@@ -57,7 +57,7 @@ export default {
 		Projects: [
 			{
 				projectName: "Litter Detection",
-				image: "https://drive.google.com/uc?export=view&id=1fCbvyz2bjLaXkdnx4uFhLVC3xHfEjw35"
+				image: "https://drive.google.com/uc?export=view&id=1fCbvyz2bjLaXkdnx4uFhLVC3xHfEjw35",
 				summary:
 					"Litter Detection Sytsem which would detect the litters and the information is passed to respective authorities.",
 				preview: "https://github.com/AaronVincent6411/Litter_Detection",
