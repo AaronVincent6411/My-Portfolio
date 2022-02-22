@@ -101,7 +101,7 @@
                          data-animate-effect="fadeInLeft">
                         <div class="about-desc">
                            <h1>Skills</h1>
-				<div id="myData"></div>
+				<div id="skills"></div>
 			    fetch('skills.js')
 				.then(function(response)
 				   { 
@@ -120,7 +120,7 @@
 				 );
 				function appendData(data)
 				 {
-				   var mainContainer = document.getElementByID("myData");
+				   var mainContainer = document.getElementByID("skills");
 				   for(var i=0;i < data.length; i++)
 				     {
 					var div = document.createElement("div");
