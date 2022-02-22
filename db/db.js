@@ -26,7 +26,7 @@ export default {
 			title: "Clouds",
 			skillName: "Google Cloud Console",
 			color: "3",
-			percentage: "70",
+			percentage: "55",
 		},
 		{
 			title: "Poster Design Tools",
@@ -57,7 +57,7 @@ export default {
 		Projects: [
 			{
 				projectName: "Litter Detection",
-				image: "https://drive.google.com/file/d/1fCbvyz2bjLaXkdnx4uFhLVC3xHfEjw35/view?usp=sharing",
+				image: "https://drive.google.com/uc?export=view&id=1fCbvyz2bjLaXkdnx4uFhLVC3xHfEjw35"
 				summary:
 					"Litter Detection Sytsem which would detect the litters and the information is passed to respective authorities.",
 				preview: "https://github.com/AaronVincent6411/Litter_Detection",
@@ -72,7 +72,7 @@ export default {
 			},
 			{
 				projectName: "SmartC",
-				image: "https://drive.google.com/file/d/1GnDBD2oKLKhMYAAaZeKiysim8yEH0Ai2/view?usp=sharing",
+				image: "https://drive.google.com/uc?export=view&id=1GnDBD2oKLKhMYAAaZeKiysim8yEH0Ai2",
 				summary:
 					"SmartC is a platform for educational institutions for accessing and providing effective way of management to students and teachers of a campus",
 				preview: "https://github.com/AaronVincent6411/SmartC",
