@@ -20,31 +20,37 @@ export default {
 			title: "Languages",
 			skillName: "C++,Python,C,Java",
 			color: "1",
+			percentage: "85",
 		},
 		{
 			title: "Clouds",
 			skillName: "Google Cloud Console",
 			color: "3",
+			percentage: "70",
 		},
 		{
 			title: "Poster Design Tools",
 			skillName: "Canva,GIMP",
 			color: "4",
+			percentage: "80",
 		},
 		{
 			title: "Communication Skill",
-			skillName: "Friendly, Confident, Respect, Leadership",
+			skillName: "Leadership",
 			color: "5",
+			percentage: "90",
 		},
 		{
 			title: "IDEs using",
 			skillName: "VS Code, Pycharm",
 			color: "6",
+			percentage: "85",
 		},
 		{
 			title: "Linux",
 			skillName: "Ubuntu,Fedora",
 			color: "7",
+			percentage: "90",
 		},
 	],
 	projects: {
