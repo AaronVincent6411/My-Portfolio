@@ -53,7 +53,7 @@ export default {
 			percentage: "90",
 		},
 	],
-		projects: [
+	projects: [
 			{
 				projectName: "Litter Detection",
 				image: "https://drive.google.com/uc?export=view&id=1fCbvyz2bjLaXkdnx4uFhLVC3xHfEjw35",
