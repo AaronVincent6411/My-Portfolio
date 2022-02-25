@@ -53,8 +53,7 @@ export default {
 			percentage: "90",
 		},
 	],
-	projects: {
-		Projects: [
+		projects: [
 			{
 				projectName: "Litter Detection",
 				image: "https://drive.google.com/uc?export=view&id=1fCbvyz2bjLaXkdnx4uFhLVC3xHfEjw35",
@@ -79,7 +78,6 @@ export default {
 				techStack: ["HTML", "Python"],
 			},
 		],
-	},
 	education: [
 		{
 			title: "Bachelors in Computer Science and Engineering",
