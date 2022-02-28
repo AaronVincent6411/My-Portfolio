@@ -53,33 +53,31 @@ export default {
 			percentage: "90",
 		},
 	],
-	projects: {
-		ML1: [
-			{
-				projectName: "Litter Detection",		
-				image: "https://drive.google.com/uc?export=view&id=1fCbvyz2bjLaXkdnx4uFhLVC3xHfEjw35",
-				summary:"Litter Detection Sytsem which would detect the litters and the information is passed to respective authorities.",				preview: "https://github.com/AaronVincent6411/Litter_Detection",				
+	ML1: [
+		{
+			projectName: "Litter Detection",		
+			image: "https://drive.google.com/uc?export=view&id=1fCbvyz2bjLaXkdnx4uFhLVC3xHfEjw35",
+			summary:"Litter Detection Sytsem which would detect the litters and the information is passed to respective authorities.",				preview: "https://github.com/AaronVincent6411/Litter_Detection",				
 				techStack: ["Python"],
-			},
-		     ],
-		Software: [
-			{
-				projectName: "SmartC",
-				image: "https://drive.google.com/uc?export=view&id=1GnDBD2oKLKhMYAAaZeKiysim8yEH0Ai2",
-				summary:"SmartC is a platform for educational institutions for accessing and providing effective way of management to students and teachers of a campus",
-				preview: "https://github.com/AaronVincent6411/SmartC",
-				techStack: ["HTML", "Python"],
-			},
-		      ],
-		C1:  [
-			{
-				projectName: "Vaccination",
-				summary:"Developed a Database for collecting information of people who took vaccine",
-				preview: "https://github.com/AaronVincent6411/Vaccination",
-				techStack: ["C"],
-			},
-		     ],
-	},
+		},
+	     ],
+	Software: [
+		{
+			projectName: "SmartC",
+			image: "https://drive.google.com/uc?export=view&id=1GnDBD2oKLKhMYAAaZeKiysim8yEH0Ai2",
+			summary:"SmartC is a platform for educational institutions for accessing and providing effective way of management to students and teachers of a campus",
+			preview: "https://github.com/AaronVincent6411/SmartC",
+			techStack: ["HTML", "Python"],
+		},
+	      ],
+	C1:  [
+		{
+			projectName: "Vaccination",
+			summary:"Developed a Database for collecting information of people who took vaccine",
+			preview: "https://github.com/AaronVincent6411/Vaccination",
+			techStack: ["C"],
+		},
+	     ],
 	education: [
 		{
 			title: "Bachelors in Computer Science and Engineering",
