@@ -1,8 +1,10 @@
 import './Overview.css';
 
-function Overview (props) {
+function Overview () {
 
 return(
- <h1>Hello, {props.name}</h1>
+ <h1>Website is currently under maintenance</h1>
   )
 }
+
+export default Overview
