@@ -1,3 +1,10 @@
 import './Overview.css';
 
-<h3>Hello</h3>
+function Overview () {
+
+return(
+ <h1>Website is currently under maintenance</h1>
+  )
+}
+
+export default Overview
