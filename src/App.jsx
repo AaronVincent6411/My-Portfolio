@@ -6,11 +6,18 @@ import Home from "./pages/1-Overview/Overview"
 
 function App() {
   // const [count, setCount] = useState(0)
+  const myStyle = {
+    background: 'linear-gradient(to right, #632636, #392A48)',
+    height: '100vh',
+    width: '100vw'
+  };
 
   return (
+    <div style={myStyle}>
       <div>
         <Home/>
       </div>
+    </div>
   )
 }
 
