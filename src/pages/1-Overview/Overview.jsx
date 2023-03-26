@@ -3,7 +3,11 @@ import './Overview.css';
 function Overview () {
 
 return(
- <h1>Website is currently under maintenance</h1>
+    <div className="container">
+      <div className="rectangle">
+        <h1>Website is currently under maintenance</h1>
+      </div>
+    </div>  
   )
 }
 
