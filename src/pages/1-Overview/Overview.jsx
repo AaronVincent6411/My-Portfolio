@@ -5,9 +5,10 @@ function Overview () {
 return(
     <div className="container">
       <div className="rectangle">
-        <h1>Website is currently under maintenance</h1>
+        <div className='inner-rectangle'></div>
+        <h1 className='heading'>Website is currently under maintenance</h1>
       </div>
-    </div>  
+    </div>
   )
 }
 
