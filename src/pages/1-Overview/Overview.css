@@ -14,6 +14,7 @@
   max-height: calc(100vh - 40px);
   max-width: calc(100vw - 40px);
   border-radius: 40px;
+  position: relative;
 }
 
 .inner-rectangle {
@@ -23,7 +24,39 @@
   border-radius: 30px 0 0 30px;
 }
 
+nav {
+  display: flex;
+  height: 50px;
+  padding: 0 20px;
+}
+
+nav ul {
+  display: flex;
+  position: absolute;
+  list-style:none;
+  flex-direction: column;
+  top: 5%;
+  padding: 50px;
+}
+
+nav li {
+  margin: 20px;
+  text-align: left;
+}
+
+nav a {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .heading {
-   font-size: 24px;
-   text-align:center;
+   font-size: 42px;
+   position: absolute;
+   top: 42%;
+   left: 35%;
+   text-align: center;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: bold
 }
