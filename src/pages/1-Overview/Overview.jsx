@@ -1,5 +1,10 @@
 import './Overview.css';
 import Typed from "typed.js";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
+import { FaClock } from 'react-icons/fa';
+import { AiOutlineMail } from 'react-icons/ai';
+
 
 function Overview () {
 //   useEffect(() => {
@@ -23,11 +28,11 @@ return(
         <div className='inner-rectangle'>
           <nav>
             <ul>
-            <li><a href="#">Overview</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Timeline</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#"><FontAwesomeIcon icon={faHome}/>&nbsp; &nbsp; Overview</a></li>
+            <li><a href="#"><FontAwesomeIcon icon={faInfoCircle}/>&nbsp; &nbsp; About</a></li>
+            <li><a href="#"><img src='/src/assets/Projects-icon.png'/>&nbsp; &nbsp;Projects</a></li>
+            <li><a href="#"><FaClock />&nbsp; &nbsp; Timeline</a></li>
+            <li><a href="#"><AiOutlineMail/>&nbsp; &nbsp;  Contact</a></li>
             </ul>
           </nav>
         </div>
