@@ -35,8 +35,8 @@ nav ul {
   position: absolute;
   list-style:none;
   flex-direction: column;
-  top: 5%;
-  padding: 50px;
+  top: 15%;
+  padding: 0px;
 }
 
 nav li {
