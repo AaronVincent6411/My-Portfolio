@@ -30,13 +30,17 @@ return(
             <ul>
             <li><a href="#"><FontAwesomeIcon icon={faHome}/>&nbsp; &nbsp; Overview</a></li>
             <li><a href="#"><FontAwesomeIcon icon={faInfoCircle}/>&nbsp; &nbsp; About</a></li>
-            <li><a href="#"><img src='/src/assets/Projects-icon.png'/>&nbsp; &nbsp;Projects</a></li>
+            <li><a href="#"><div className="image">
+              <img src='/src/assets/Projects-icon.png'/>&nbsp; &nbsp;Projects
+              </div></a></li>
             <li><a href="#"><FaClock />&nbsp; &nbsp; Timeline</a></li>
             <li><a href="#"><AiOutlineMail/>&nbsp; &nbsp;  Contact</a></li>
             </ul>
           </nav>
         </div>
         <div className='heading'>Website is currently under maintenance</div>
+        <div className='inner-rectangle-2'>
+        </div>
       </div>
     </div>
   )
