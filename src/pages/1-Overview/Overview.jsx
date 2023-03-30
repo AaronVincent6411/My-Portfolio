@@ -41,6 +41,10 @@ return(
         <div className='heading'>Website is currently under maintenance</div>
         <div className='inner-rectangle-2'>
         </div>
+        <div className='inner-rectangle-3'>
+        </div>
+        <div className='line'>
+        </div>
       </div>
     </div>
   )
