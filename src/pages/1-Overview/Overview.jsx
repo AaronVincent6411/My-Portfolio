@@ -5,7 +5,6 @@ import { faHome, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import { FaClock } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
 
-
 function Overview () {
 //   useEffect(() => {
 //     const typed = new Typed(el.current, {
@@ -30,9 +29,13 @@ return(
             <ul>
             <li><a href="#"><FontAwesomeIcon icon={faHome}/>&nbsp; &nbsp; Overview</a></li>
             <li><a href="#"><FontAwesomeIcon icon={faInfoCircle}/>&nbsp; &nbsp; About</a></li>
-            <li><a href="#"><div className="image">
-              <img src='/src/assets/Projects-icon.png'/>&nbsp; &nbsp;Projects
-              </div></a></li>
+            <li>
+              <a href="#">
+                <div className="image">
+                  <img src='/src/assets/Projects-icon.png'/>&nbsp; &nbsp;Projects
+                </div>
+              </a>
+            </li>
             <li><a href="#"><FaClock />&nbsp; &nbsp; Timeline</a></li>
             <li><a href="#"><AiOutlineMail/>&nbsp; &nbsp;  Contact</a></li>
             </ul>
@@ -43,6 +46,26 @@ return(
         </div>
         <div className='inner-rectangle-3'>
         </div>
+        <div className='inner-rectangle-4'>
+        </div>
+        <div className='inner-rectangle-5'>
+        </div>
+        <div className='inner-rectangle-6'>
+        </div>
+        <div className='inner-rectangle-7'>
+        </div>
+        <div className='inner-rectangle-8'>
+        </div>
+        <div className='img-rectangle'>
+        </div>
+        <a href='#'>
+          <img src="https://live.staticflickr.com/65535/52783270220_87fdc16456_b.jpg" className='lionex-png'/>
+        </a>
+        <a href="#">
+          <div className='profile'>
+            <img src='/src/assets/Profile.png'/>
+          </div>
+        </a>
         <div className='line'>
         </div>
       </div>
