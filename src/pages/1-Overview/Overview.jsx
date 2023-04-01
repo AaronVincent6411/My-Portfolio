@@ -51,8 +51,14 @@ return(
         <div className='inner-rectangle-5'>
         </div>
         <div className='inner-rectangle-6'>
+        <div className='text-6'>
+            Completed Projects&nbsp; &nbsp;&nbsp; &nbsp;2
+          </div>
         </div>
         <div className='inner-rectangle-7'>
+          <div className='text-7'>
+            Current Projects&nbsp; &nbsp;&nbsp; &nbsp;4
+          </div>
         </div>
         <div className='inner-rectangle-8'>
         </div>
