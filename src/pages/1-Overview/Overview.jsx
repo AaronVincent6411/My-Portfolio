@@ -5,58 +5,58 @@ import { faHome, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import { FaClock } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
 
-const Marquee = ({ text }) => {
-  const [textWidth, setTextWidth] = useState(0);
-  const [containerWidth, setContainerWidth] = useState(0);
-  const [position, setPosition] = useState(0);
-  const [isPaused, setIsPaused] = useState(false);
+// const Marquee = ({ text }) => {
+//   const [textWidth, setTextWidth] = useState(0);
+//   const [containerWidth, setContainerWidth] = useState(0);
+//   const [position, setPosition] = useState(0);
+//   const [isPaused, setIsPaused] = useState(false);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setPosition((prevPosition) => {
-        if (prevPosition < -textWidth) {
-          return containerWidth;
-        }
-        return prevPosition - 1;
-      });
-    }, 10);
+//   useEffect(() => {
+//     const interval = setInterval(() => {
+//       setPosition((prevPosition) => {
+//         if (prevPosition < -textWidth) {
+//           return containerWidth;
+//         }
+//         return prevPosition - 1;
+//       });
+//     }, 10);
 
-    return () => clearInterval(interval);
-  }, [containerWidth, textWidth]);
+//     return () => clearInterval(interval);
+//   }, [containerWidth, textWidth]);
 
-  const handleMouseEnter = () => {
-    setIsPaused(true);
-  };
+//   const handleMouseEnter = () => {
+//     setIsPaused(true);
+//   };
 
-  const handleMouseLeave = () => {
-    setIsPaused(false);
-  };
+//   const handleMouseLeave = () => {
+//     setIsPaused(false);
+//   };
 
-  const handleContainerResize = (e) => {
-    setContainerWidth(e.target.offsetWidth);
-  };
+//   const handleContainerResize = (e) => {
+//     setContainerWidth(e.target.offsetWidth);
+//   };
 
-  const handleTextResize = (e) => {
-    setTextWidth(e.target.offsetWidth);
-  };
+//   const handleTextResize = (e) => {
+//     setTextWidth(e.target.offsetWidth);
+//   };
 
-  return (
-    <div
-      className="marquee-container"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-      onResize={handleContainerResize}
-    >
-      <div
-        className="marquee-text"
-        style={{ transform: `translateX(${position}px)` }}
-        onResize={handleTextResize}
-      >
-        {text}
-      </div>
-    </div>
-  );
-};
+//   return (
+//     <div
+//       className="marquee-container"
+//       onMouseEnter={handleMouseEnter}
+//       onMouseLeave={handleMouseLeave}
+//       onResize={handleContainerResize}
+//     >
+//       <div
+//         className="marquee-text"
+//         style={{ transform: `translateX(${position}px)` }}
+//         onResize={handleTextResize}
+//       >
+//         {text}
+//       </div>
+//     </div>
+//   );
+// };
 
 function Overview () {
 //   useEffect(() => {
