@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import { FaClock } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
+import { useEffect, useRef } from "react";
+import gif from '/src/assets/ScarceBrownCaimanlizard-size_restricted.gif'
 
 // const Marquee = ({ text }) => {
 //   const [textWidth, setTextWidth] = useState(0);
@@ -59,20 +61,60 @@ import { AiOutlineMail } from 'react-icons/ai';
 // };
 
 function Overview () {
-//   useEffect(() => {
-//     const typed = new Typed(el.current, {
-//         strings: ["Website is currently under maintenance"], 
-//         startDelay: 200,
-//         typeSpeed: 100,
-//         backSpeed: 100,
-//         backDelay: 100,
-//         loop: false,
-//     });
-//     return () => {
-//         typed.destroy();
-//     };
-// }, []);
-// const el = useRef(null);
+  const el1 = useRef(null);
+  const el2 = useRef(null);
+  const el3 = useRef(null);
+  const el4 = useRef(null);
+
+  useEffect(() => {
+    const typed1 = new Typed(el1.current, {
+      strings: ["Hi, I am Aaron"],
+      startDelay: 200,
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 100,
+      loop: false,
+      showCursor: false,
+      onComplete: () => {
+        const typed2 = new Typed(el2.current, {
+          strings: ["- Student"],
+          startDelay: 400,
+          typeSpeed: 100,
+          backSpeed: 100,
+          backDelay: 100,
+          loop: false,
+          showCursor: false,
+          onComplete: () => {
+            const typed2 = new Typed(el3.current, {
+              strings: ["- Poster designer"],
+              startDelay: 600,
+              typeSpeed: 100,
+              backSpeed: 100,
+              backDelay: 100,
+              loop: false,
+              showCursor: false,
+              onComplete: () => {
+                const typed2 = new Typed(el4.current, {
+                  strings: ["- Developer"],
+                  startDelay: 800,
+                  typeSpeed: 100,
+                  backSpeed: 100,
+                  backDelay: 100,
+                  loop: false,
+                  showCursor: false,
+                });
+              },
+            });
+          },
+        });
+      },
+    });
+    return () => {
+      typed1.destroy();
+    };
+  }, []);
+
+  // el.current.style.fontSize = "32px";
 
 return(
     <div className="container">
@@ -80,8 +122,12 @@ return(
         <div className='inner-rectangle'>
           <nav>
             <ul>
-            <li><a href="#"><FontAwesomeIcon icon={faHome}/>&nbsp; &nbsp; Overview</a></li>
-            <li><a href="#"><FontAwesomeIcon icon={faInfoCircle}/>&nbsp; &nbsp; About</a></li>
+            <li><a href="/"><FontAwesomeIcon icon={faHome}/>&nbsp; &nbsp; Overview</a></li>
+            <li>
+              <a href="/about">
+                <FontAwesomeIcon icon={faInfoCircle}/>&nbsp; &nbsp; About
+              </a>
+            </li>
             <li>
               <a href="#">
                 <div className="image">
@@ -94,10 +140,45 @@ return(
             </ul>
           </nav>
         </div>
-        <div className='heading'>Website is currently under maintenance</div>
+        {/* <div className='heading'>Website is currently under maintenance</div> */}
         <div className='inner-rectangle-2'>
+          <div className='text-2-1' ref={el1}></div>
+          <div className='text-2-2' ref={el2}></div>
+          <div className='text-2-3' ref={el3}></div>
+          <div className='text-2-4' ref={el4}></div>
+          <div className='gif'>
+            <img src={gif}/>
+          </div>
         </div>
         <div className='inner-rectangle-3'>
+          <div className='text-3-1'>
+            Known Languages 
+          </div>
+          <div className='red-dot'>
+          </div>
+          <div className='text-3-2'>
+              C++
+          </div>
+          <div className='blue-dot'>
+          </div>
+          <div className='text-3-3'>
+              Python
+          </div>
+          <div className='grey-dot'>
+          </div>
+          <div className='text-3-4'>
+              C
+          </div>
+          <div className='yellow-dot'>
+          </div>
+          <div className='text-3-5'>
+              Java
+          </div>
+          <div className='darkishblue-dot'>
+          </div>
+          <div className='text-3-6'>
+              React
+          </div>
         </div>
         <div className='inner-rectangle-4'>
           <div className='text-4'>
