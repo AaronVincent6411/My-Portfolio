@@ -5,60 +5,7 @@ import { faHome, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import { FaClock } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
 import { useEffect, useRef } from "react";
-import gif from '/src/assets/ScarceBrownCaimanlizard-size_restricted.gif'
-
-// const Marquee = ({ text }) => {
-//   const [textWidth, setTextWidth] = useState(0);
-//   const [containerWidth, setContainerWidth] = useState(0);
-//   const [position, setPosition] = useState(0);
-//   const [isPaused, setIsPaused] = useState(false);
-
-//   useEffect(() => {
-//     const interval = setInterval(() => {
-//       setPosition((prevPosition) => {
-//         if (prevPosition < -textWidth) {
-//           return containerWidth;
-//         }
-//         return prevPosition - 1;
-//       });
-//     }, 10);
-
-//     return () => clearInterval(interval);
-//   }, [containerWidth, textWidth]);
-
-//   const handleMouseEnter = () => {
-//     setIsPaused(true);
-//   };
-
-//   const handleMouseLeave = () => {
-//     setIsPaused(false);
-//   };
-
-//   const handleContainerResize = (e) => {
-//     setContainerWidth(e.target.offsetWidth);
-//   };
-
-//   const handleTextResize = (e) => {
-//     setTextWidth(e.target.offsetWidth);
-//   };
-
-//   return (
-//     <div
-//       className="marquee-container"
-//       onMouseEnter={handleMouseEnter}
-//       onMouseLeave={handleMouseLeave}
-//       onResize={handleContainerResize}
-//     >
-//       <div
-//         className="marquee-text"
-//         style={{ transform: `translateX(${position}px)` }}
-//         onResize={handleTextResize}
-//       >
-//         {text}
-//       </div>
-//     </div>
-//   );
-// };
+import gif from '/src/assets/ScarceBrownCaimanlizard-size_restricted.gif';
 
 function Overview () {
   const el1 = useRef(null);
@@ -129,18 +76,18 @@ return(
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="/projects">
                 <div className="image">
                   <img src='/src/assets/Projects-icon.png'/>&nbsp; &nbsp;Projects
                 </div>
               </a>
             </li>
-            <li><a href="#"><FaClock />&nbsp; &nbsp; Timeline</a></li>
-            <li><a href="#"><AiOutlineMail/>&nbsp; &nbsp;  Contact</a></li>
+            <li><a href="/timeline"><FaClock />&nbsp; &nbsp; Timeline</a></li>
+            <li><a href="/contact"><AiOutlineMail/>&nbsp; &nbsp;  Contact</a></li>
             </ul>
           </nav>
         </div>
-        {/* <div className='heading'>Website is currently under maintenance</div> */}
+        <div className='heading'>Overview</div>
         <div className='inner-rectangle-2'>
           <div className='text-2-1' ref={el1}></div>
           <div className='text-2-2' ref={el2}></div>
@@ -152,9 +99,9 @@ return(
         </div>
         <div className='inner-rectangle-3'>
           <div className='text-3-1'>
-            Known Languages 
+            Known Languages and Frameworks
           </div>
-          <div className='red-dot'>
+          {/* <div className='red-dot'>
           </div>
           <div className='text-3-2'>
               C++
@@ -178,7 +125,14 @@ return(
           </div>
           <div className='text-3-6'>
               React
-          </div>
+          </div> */}
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" className='CPP'/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" className='Python'/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" className='C'/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" className='React'/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" className='Java'/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" className='Flutter'/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" className='Pytorch'/>       
         </div>
         <div className='inner-rectangle-4'>
           <div className='text-4'>
@@ -258,39 +212,33 @@ return(
           </div>
         </div>
         <div className='inner-rectangle-8'>
-          {/* <div class="marquee-container-1">
-            <div class="marquee">
-              <span>My portfolio</span>
-              <span>My portfolio</span>
-              <span>My portfolio</span>
-              <span>My portfolio</span>
-              <span>My portfolio</span>
-              <span>My portfolio</span>
-              <span>My portfolio</span>
-            </div>
+          <div class="marquee">
+            <ul class="marquee__content ">
+              <li>&nbsp;My Portfolio&nbsp;</li>
+              <li>&nbsp;My Portfolio&nbsp;</li>
+              <li>&nbsp;My Portfolio&nbsp;</li>
+              <li>&nbsp;My Portfolio&nbsp;</li>
+              <li>&nbsp;My Portfolio&nbsp;</li>
+              <li>&nbsp;My Portfolio&nbsp;</li>
+              <li>&nbsp;My Portfolio&nbsp;</li>
+            </ul>
+            <ul class="marquee__content">
+              <li>&nbsp;My Portfolio&nbsp;</li>
+              <li>&nbsp;My Portfolio&nbsp;</li>
+              <li>&nbsp;My Portfolio&nbsp;</li>
+              <li>&nbsp;My Portfolio&nbsp;</li>
+              <li>&nbsp;My Portfolio&nbsp;</li>
+              <li>&nbsp;My Portfolio&nbsp;</li>
+              <li>&nbsp;My Portfolio&nbsp;</li>
+            </ul>
           </div>
-          <div class="marquee-container-2">
-            <div class="marquee">
-              <span>My portfolio</span>
-              <span>My portfolio</span>
-              <span>My portfolio</span>
-              <span>My portfolio</span>
-              <span>My portfolio</span>
-              <span>My portfolio</span>
-              <span>My portfolio</span>
-            </div>
-          </div> */}
-          {/* <div className="App">
-            <Marquee text="My Portfolio" />
-            <Marquee text="My Portfolio" />
-          </div> */}
         </div>
         <div className='img-rectangle'>
         </div>
         <a href='#'>
           <img src="https://live.staticflickr.com/65535/52783270220_87fdc16456_b.jpg" className='lionex-png'/>
         </a>
-        <a href="#">
+        <a href="/about">
           <div className='profile'>
             <img src='/src/assets/Profile.png'/>
           </div>
