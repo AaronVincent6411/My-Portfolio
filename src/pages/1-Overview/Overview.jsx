@@ -2,9 +2,8 @@ import './Overview.css';
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
 import gif from '/src/assets/ScarceBrownCaimanlizard-size_restricted.gif';
-
-import { Link } from 'react-router-dom';
-import Layout from '../../components/Layout/Layout';
+import Navbar from '../../components/Navbar/Navbar';
+import Header from '../../components/Header/HeaderO';
 
 function Overview () {
   const el1 = useRef(null);
@@ -63,7 +62,9 @@ function Overview () {
   // el.current.style.fontSize = "32px";
 
 return(
-    <Layout>
+    <div className="container">
+      <div className="rectangle">
+        <Navbar/>
         <div className='heading'>Overview</div>
         <div className='inner-rectangle-2'>
           <div className='text-2-1' ref={el1}></div>
@@ -188,42 +189,10 @@ return(
             Current Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4
           </div>
         </div>
-        <div className='inner-rectangle-8'>
-          <div class="marquee">
-            <ul class="marquee__content ">
-              <li>&nbsp;My Portfolio&nbsp;</li>
-              <li>&nbsp;My Portfolio&nbsp;</li>
-              <li>&nbsp;My Portfolio&nbsp;</li>
-              <li>&nbsp;My Portfolio&nbsp;</li>
-              <li>&nbsp;My Portfolio&nbsp;</li>
-              <li>&nbsp;My Portfolio&nbsp;</li>
-              <li>&nbsp;My Portfolio&nbsp;</li>
-            </ul>
-            <ul class="marquee__content">
-              <li>&nbsp;My Portfolio&nbsp;</li>
-              <li>&nbsp;My Portfolio&nbsp;</li>
-              <li>&nbsp;My Portfolio&nbsp;</li>
-              <li>&nbsp;My Portfolio&nbsp;</li>
-              <li>&nbsp;My Portfolio&nbsp;</li>
-              <li>&nbsp;My Portfolio&nbsp;</li>
-              <li>&nbsp;My Portfolio&nbsp;</li>
-            </ul>
-          </div>
-        </div>
-        <div className='img-rectangle'>
-        </div>
-        <a href='#'>
-          <img src="https://live.staticflickr.com/65535/52783270220_87fdc16456_b.jpg" className='lionex-png'/>
-        </a>
-        <a href="/about">
-          <div className='profile'>
-            <img src='/src/assets/Profile.png'/>
-          </div>
-        </a>
-        <div className='line'>
-        </div>
-  </Layout>
-  )
+        <Header/>
+      </div>
+    </div>
+  );
 }
 
 export default Overview
