@@ -1,8 +1,4 @@
-import OverviewPage from "./pages/1-Overview/Overview"
-import About from "./pages/2-About/About"
-// import Timeline from "./pages/4-Timeline/Timeline"
-// import Projects from "./pages/3-Projects/Projects"
-// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Overview from "./pages/1-Overview/Overview"
 
 function App() {
   const myStyle = {
@@ -14,19 +10,7 @@ function App() {
   return (
     <div style={myStyle}>
       <div>
-        <OverviewPage/>
-      </div>
-      <div>
-        <About/>
-      </div>
-      <div>
-        {/* <Projects/> */}
-      </div>
-      <div>
-        {/* <Timeline/> */}
-      </div>
-      <div>
-        {/* <Contact/> */}
+        <Overview/>
       </div>
     </div>
   )
