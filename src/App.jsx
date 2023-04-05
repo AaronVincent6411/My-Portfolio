@@ -1,13 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Home from "./pages/1-Overview/Overview"
-// import About from "./pages/2-About/About"
-// import { BrowserRouter as Router, Route } from "react-router-dom";
+import OverviewPage from "./pages/1-Overview/Overview"
+import About from "./pages/2-About/About"
+// import Timeline from "./pages/4-Timeline/Timeline"
+// import Projects from "./pages/3-Projects/Projects"
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
-  // const [count, setCount] = useState(0)
   const myStyle = {
     background: 'linear-gradient(to right, #632636, #392A48)',
     height: '100vh',
@@ -17,10 +14,22 @@ function App() {
   return (
     <div style={myStyle}>
       <div>
-        <Home/>
+        <OverviewPage/>
+      </div>
+      <div>
+        <About/>
+      </div>
+      <div>
+        {/* <Projects/> */}
+      </div>
+      <div>
+        {/* <Timeline/> */}
+      </div>
+      <div>
+        {/* <Contact/> */}
       </div>
     </div>
   )
 }
 
-export default App
+export default App;
