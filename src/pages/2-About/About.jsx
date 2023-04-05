@@ -1,12 +1,24 @@
 import React from "react";
-import Layout from "../../components/Layout/Layout";
+import Navbar from "../../components/Navbar/Navbar";
+import Header from "../../components/Header/HeaderA";
 
 function About() {
+    const myStyle = {
+        background: 'linear-gradient(to right, #632636, #392A48)',
+        height: '100vh',
+        width: '100vw'
+      };
 
     return(
-        <Layout>
-            <div>Hello</div>
-        </Layout>
+        <div style={myStyle}>
+            <div className="container">
+                <div className="rectangle">
+                   <Navbar/>
+                   <div className='heading'>About</div>
+                   <Header/>
+                </div>
+            </div>
+        </div>
     );
 }
 
