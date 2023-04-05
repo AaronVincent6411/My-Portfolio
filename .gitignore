@@ -25,3 +25,5 @@ dist-ssr
 Chat.jsx
 src/components/Layout
 pages.jsx
+Skills.jsx
+Skills.css
