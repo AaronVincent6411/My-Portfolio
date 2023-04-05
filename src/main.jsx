@@ -2,6 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
+import About from './pages/2-About/About'
+import Projects from './pages/3-Projects/Projects'
+import Timeline from './pages/4-Timeline/Timeline'
+import Contact from './pages/5-Contact/Contact'
 
 import {
   createBrowserRouter,
@@ -12,6 +16,22 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App/>,
+  },
+  {
+    path: "/about",
+    element: <About/>,
+  },
+  {
+    path: "/projects",
+    element: <Projects/>,
+  },
+  {
+    path: "/timeline",
+    element: <Timeline/>,
+  },
+  {
+    path: "/contact",
+    element: <Contact/>,
   },
 ]);
 
