@@ -1,0 +1,37 @@
+.inner-rectangle-8 {
+    background-color: #000000;
+    position: absolute;
+    height: 4%;
+    width: 70%;
+    top: 2%;
+    right: 10%;
+    border-radius: 40px;
+  }
+  
+  .marquee {
+    --gap: 1rem;
+    display: flex;
+    overflow: hidden;
+    user-select:none;
+    gap: var(--gap);
+  }
+  
+  .marquee__content {
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+    gap: var(--gap);
+    animation: scroll 20s linear infinite;
+    margin-top: 0.3%;
+    opacity: 50%;
+    list-style-type: none;
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
