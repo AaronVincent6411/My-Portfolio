@@ -1,11 +1,10 @@
 import './Overview.css';
 import Typed from "typed.js";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
-import { FaClock } from 'react-icons/fa';
-import { AiOutlineMail } from 'react-icons/ai';
 import { useEffect, useRef } from "react";
 import gif from '/src/assets/ScarceBrownCaimanlizard-size_restricted.gif';
+
+import { Link } from 'react-router-dom';
+import Layout from '../../components/Layout/Layout';
 
 function Overview () {
   const el1 = useRef(null);
@@ -64,29 +63,7 @@ function Overview () {
   // el.current.style.fontSize = "32px";
 
 return(
-    <div className="container">
-      <div className="rectangle">
-        <div className='inner-rectangle'>
-          <nav>
-            <ul>
-            <li><a href="/"><FontAwesomeIcon icon={faHome}/>&nbsp; &nbsp; Overview</a></li>
-            <li>
-              <a href="/about">
-                <FontAwesomeIcon icon={faInfoCircle}/>&nbsp; &nbsp; About
-              </a>
-            </li>
-            <li>
-              <a href="/projects">
-                <div className="image">
-                  <img src='/src/assets/Projects-icon.png'/>&nbsp; &nbsp;Projects
-                </div>
-              </a>
-            </li>
-            <li><a href="/timeline"><FaClock />&nbsp; &nbsp; Timeline</a></li>
-            <li><a href="/contact"><AiOutlineMail/>&nbsp; &nbsp;  Contact</a></li>
-            </ul>
-          </nav>
-        </div>
+    <Layout>
         <div className='heading'>Overview</div>
         <div className='inner-rectangle-2'>
           <div className='text-2-1' ref={el1}></div>
@@ -245,8 +222,7 @@ return(
         </a>
         <div className='line'>
         </div>
-      </div>
-    </div>
+  </Layout>
   )
 }
 
