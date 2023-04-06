@@ -485,3 +485,19 @@ nav a {
     transform: translateX(0);
   }
 }
+
+.music img {
+  position: relative;
+  width: 8%;
+  height: 8%;
+  bottom: 50px;
+  left: 35%;
+}
+
+.pause img {
+  position: relative;
+  width: 11%;
+  height: 11%;
+  bottom: 105px;
+  left: 55%;
+}

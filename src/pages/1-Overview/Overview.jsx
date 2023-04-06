@@ -1,9 +1,15 @@
 import './Overview.css';
 import Typed from "typed.js";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import gif from '/src/assets/ScarceBrownCaimanlizard-size_restricted.gif';
 import Navbar from '../../components/Navbar/Navbar';
 import Header from '../../components/Header/HeaderO';
+import Eyes from '../../components/Eyes/Eyes';
+import musicIcon from '../../assets/music-icon.png'
+
+import pauseIcon from '../../assets/pause-icon.png'
+import song1 from '../../assets/Ava-Famy.mp3'
+import song2 from '../../assets/Wavin-Flag.mp3'
 
 function Overview () {
   const el1 = useRef(null);
@@ -61,6 +67,38 @@ function Overview () {
 
   // el.current.style.fontSize = "32px";
 
+  const [isPlaying, setIsPlaying] = useState(false);
+  const audioRef = useRef(null);
+
+  useEffect(() => {
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current.currentTime = 0;
+      }
+    };
+  }, []);
+
+  function handleMusicClick() {
+    if (isPlaying) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+    } else {
+      const randomSong = Math.random() < 0.5 ? song1 : song2;
+      audioRef.current.src = randomSong;
+      audioRef.current.play();
+    }
+    setIsPlaying(isPlaying);
+  }
+
+  function pauseMusicClick() {
+    if (isPlaying) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+      setIsPlaying(false);
+    }
+  }
+
 return(
     <div className="container">
       <div className="rectangle">
@@ -113,13 +151,24 @@ return(
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" className='Pytorch'/>       
         </div>
         <div className='inner-rectangle-4'>
-          <div className='text-4'>
-            {/* <button onClick={Chat}>Chat with me</button> */}
-            {/* <Chatw /> */}
-
-          </div>
-          <div className='text-4-2'>
-          </div>
+        <Eyes/>
+        <div className='music'>
+        <img
+          src={musicIcon}
+          alt="music icon"
+          onClick={handleMusicClick}
+          style={{ cursor: "pointer" }}
+        />
+        {isPlaying ? (
+          <span onClick={pauseMusicClick}></span>
+        ) : (
+          <span onClick={handleMusicClick}></span>
+        )}
+        <audio ref={audioRef} />
+        </div>
+        <div className='pause'>
+          <img src={pauseIcon} alt="pause icon" onClick={pauseMusicClick} />
+        </div>
         </div>
         <div className='inner-rectangle-5'>
           <div className='text-5-1'>
