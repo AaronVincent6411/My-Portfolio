@@ -64,6 +64,14 @@ function About() {
                         Developer
                     </div>
                    </div>
+                   <div className="place-rectangle">
+                    <div className="place-h3">
+                        Place
+                    </div>
+                    <div className="place-t1">
+                        Kerala
+                    </div>
+                   </div>
                    {/* <button onClick={handleSkillsBoxClick}>Skills</button>
               {isSkillsBoxOpen && <Skills skills={skills} />} */}
                 </div>
