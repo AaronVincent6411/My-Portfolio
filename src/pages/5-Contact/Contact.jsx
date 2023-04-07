@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/HeaderC";
+import './Contact.css'
 
 function Contact() {
     const myStyle = {
