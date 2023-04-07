@@ -6,6 +6,6 @@ import Home from './pages/1-Overview/Overview'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App/>
+    <Home/>
   </React.StrictMode>,
 )

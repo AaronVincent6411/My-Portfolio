@@ -1,8 +1,9 @@
 {
-  "name": "vue",
+  "name": "My-Portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://aaronvincent6411.github.io/My-Portfolio/",
   "scripts": {
     "dev": "vite",
     "start": "serve -s dist",
