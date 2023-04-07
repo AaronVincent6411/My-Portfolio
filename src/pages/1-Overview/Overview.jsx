@@ -7,9 +7,12 @@ import Header from '../../components/Header/HeaderO';
 import Eyes from '../../components/Eyes/Eyes';
 import musicIcon from '../../assets/music-icon.png'
 
-import pauseIcon from '../../assets/pause-icon.png'
+import stopIcon from '../../assets/stop-icon.png'
 import song1 from '../../assets/Ava-Famy.mp3'
 import song2 from '../../assets/Wavin-Flag.mp3'
+// import playIcon from '../../assets/play-icon.png'
+import resume from '../../assets/Resume.pdf'
+import resumeIcon from '../../assets/resume-icon.jpg'
 
 function Overview () {
   const el1 = useRef(null);
@@ -68,6 +71,7 @@ function Overview () {
   // el.current.style.fontSize = "32px";
 
   const [isPlaying, setIsPlaying] = useState(false);
+  const [songName, setSongName] = useState('None');
   const audioRef = useRef(null);
 
   useEffect(() => {
@@ -83,23 +87,43 @@ function Overview () {
     if (isPlaying) {
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
+      setSongName('None');
     } else {
       const randomSong = Math.random() < 0.5 ? song1 : song2;
       audioRef.current.src = randomSong;
       audioRef.current.play();
+      const fileName = randomSong.replace(/^.*[\\/]/, '').slice(0, -4);
+      setSongName(fileName);
     }
     setIsPlaying(isPlaying);
   }
 
-  function pauseMusicClick() {
-    if (isPlaying) {
+  // function pauseMusicClick() {
+  //   if (isPlaying) {
+  //     audioRef.current.pause();
+  //     audioRef.current.currentTime = 0;
+  //     setIsPlaying(false);
+  //     setCurrentSong(null);
+  //   }
+  // }
+
+  function handleStopClick() {
+    if (audioRef.current) {
       audioRef.current.pause();
-      audioRef.current.currentTime = 0;
       setIsPlaying(false);
+      setSongName('None');
     }
   }
+   
 
-return(
+  // function handlePlayClick() {
+  //   if (!isPlaying) {
+  //     audio.play();
+  //     setIsPlaying(true);
+  //   }
+  // }  
+
+  return(
     <div className="container">
       <div className="rectangle">
         <Navbar/>
@@ -151,24 +175,35 @@ return(
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" className='Pytorch'/>       
         </div>
         <div className='inner-rectangle-4'>
-        <Eyes/>
-        <div className='music'>
-        <img
-          src={musicIcon}
-          alt="music icon"
-          onClick={handleMusicClick}
-          style={{ cursor: "pointer" }}
-        />
-        {isPlaying ? (
-          <span onClick={pauseMusicClick}></span>
-        ) : (
-          <span onClick={handleMusicClick}></span>
-        )}
-        <audio ref={audioRef} />
-        </div>
-        <div className='pause'>
-          <img src={pauseIcon} alt="pause icon" onClick={pauseMusicClick} />
-        </div>
+          <Eyes/>
+          <div className='music'>
+          <img
+            src={musicIcon}
+            alt="music icon"
+            onClick={handleMusicClick}
+            style={{ cursor: "pointer" }}
+          />
+          {isPlaying ? (
+           <span onClick={pauseMusicClick}></span>
+          ) : (
+           <span onClick={handleMusicClick}></span>
+          )}
+          <audio ref={audioRef} />
+          </div>
+          <div className='stop'>
+            <img src={stopIcon} alt="stop icon" onClick={handleStopClick} style={{ cursor: "pointer" }}/>
+          </div>
+          <div className='song-name'>
+            {songName}
+          </div>
+          {/* <div className='play'>
+            <img src={playIcon} alt="play icon" onClick={handlePlayClick} style={{ cursor: "pointer" }}/>
+          </div> */}
+          {/* <div className='resume'>
+            <a href={ resume } download>
+              <img src={ resumeIcon } alt="Resume" />
+            </a>
+          </div> */}
         </div>
         <div className='inner-rectangle-5'>
           <div className='text-5-1'>
