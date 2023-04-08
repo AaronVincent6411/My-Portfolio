@@ -11,7 +11,7 @@
   }
   
   
-.rectangle {
+  .rectangle {
     background-color: #222429;
     height: 90vh;
     width: 90vw;
@@ -20,13 +20,13 @@
     border-radius: 40px;
     position: relative;
   }
+  
 
-.project-rectangle {
-    background-color: black;
-    width: 20%;
-    height: 20%;
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    border-radius: 40px;
+.slider-rectangle {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  bottom: 81%;
+  left: 20%;
+  margin-right: 20%;
   }
