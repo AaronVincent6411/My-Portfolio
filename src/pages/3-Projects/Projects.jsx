@@ -25,6 +25,21 @@ function Projects() {
           <div className="slider-rectangle">
             <Slider/>
           </div>
+          <div className='projects-rectangle-1'>
+        <div className='projects-text-1'>
+            Completed Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4
+          </div>
+        </div>
+        <div className='projects-rectangle-2'>
+          <div className='projects-text-2'>
+            Currently Working&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7
+          </div>
+        </div>
+        <div className='projects-rectangle-3'>
+          <div className='projects-text-3'>
+            Total Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11
+          </div>
+        </div>
         </div>
       </div>
     </div>
