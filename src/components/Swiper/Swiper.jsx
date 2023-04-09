@@ -77,7 +77,7 @@ function Slider() {
     {
       id: 10,
       title: 'Audio Stegnography',
-      description: 'This is a BCA students project and I contributed stegnography python program and applied basic flask methods',
+      description: 'This is a BCA students project and I contributed stegnography python program and applied basic flask methods because they asked my contribution',
       github: 'https://github.com/martialWarloc/audio-steganography',
       image: 'https://live.staticflickr.com/65535/53268323492_7804c4c784_h.jpg'
     },
