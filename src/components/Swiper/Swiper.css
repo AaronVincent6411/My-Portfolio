@@ -1,116 +1,6 @@
-/* .project-1 {
-    background-color: black;
-    border-radius: 40px;
-    padding: 20px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  
-.project-2 {
-    background-color: black;
-    border-radius: 40px;
-    padding: 20px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-
-.project-3 {
-    background-color: black;
-    border-radius: 40px;
-    padding: 20px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-
-.project-4 {
-    background-color: black;
-    border-radius: 40px;
-    padding: 20px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-
-.text-1 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    position: relative;
-    bottom: 3%;
-    left: 10%;
-}
-
-.desc-1 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    position: relative;
-    top: 10%;
-    text-align: left;
-    margin-left: -65%;
-    margin-right: -110%;
-    word-spacing: 5px;
-    line-height: 1.6em;
-    
-}
-
-.text-2 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    position: relative;
-    bottom: 3%;
-    left: 10%;
-}
-
-.desc-2 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    position: relative;
-    top: 10%;
-    text-align: left;
-    margin-left: -55%;
-    margin-right: -110%;
-    word-spacing: 5px;
-    line-height: 1.6em; 
-}
-
-.card {
-    background-color: black;
-    border-radius: 10px;
-    height: 350px;
-    width: 200px;
-    display: flex;
-
-  }
-
-  .github-icon {
-    width: 50px;
-    height: 50px;
-    margin-top: 18.8em;
-    align-self: center;
-    position: relative;
-    left: 55%;
-  } */
-
-  /* .projects-container {
-    background: linear-gradient(to right, #632636, #392A48);
-    height: 100vh;
-    width: 100vw;
-  }
-  
-  .projects-heading {
-    color: #fff;
-    font-size: 40px;
-    text-align: center;
-    margin-top: 40px;
-  }
-  
-  .swiper-container {
-    height: 70vh;
-    width: 70vw;
-    margin: 0 auto;
-  }*/
-  
-  .project-card {
+.project-card {
     background-color: #000000;
-    height: 550px;
+    height: 530px;
     width: 300px;
     margin: 0 auto;
     border-radius: 20px;
@@ -123,69 +13,46 @@
   
   .project-img {
     width: 100%;
-    height: 100px;
-    object-fit: cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    height: 150px;
+    object-fit: contain;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+.line-2 {
+    position: absolute;
+    height: 2px;
+    width: 380px;
+    top: 33%;
+    left: 60px;
+    background-color: #222429;
   }
   
-  .project-title {
+.project-title {
     color: #fff;
-    font-size: 28px;
+    font-size: 24px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 38%;
+    position: fixed;
   }
   
-  .project-description {
+.project-description {
     color: #fff;
     font-size: 18px;
-    text-align: left;
+    text-align: center;
     position: relative;
-    bottom: 7%;
+    top: 38%;
+    position: fixed;
+    margin-left: 5.7%;
+    margin-right: 5.7%;
+    line-height: 1.7em;
   } 
 
 .github-icon {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     align-self: center;
-    position: relative;
-    bottom: 45%;
+    position: fixed;
+    bottom: 2%;
+    left: 45%;
   } 
-
-
-  /* body {
-    background: #fff;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .swiper-container {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-  }
- 
-  .card {
-    width: 300px;
-    height: 300px;
-    background-position: center;
-    background-size: cover;
-  }
-  
-  .text-1 {
-    font-size: 20px;
-    text-align: center;
-    padding-top: 100px;
-  }
-   */
-  
