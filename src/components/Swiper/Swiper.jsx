@@ -63,21 +63,28 @@ function Slider() {
       title: 'Water Leakage Resolver',
       description: 'This is a project done by me and my team members Benchacko, Jonathan and Sreyas as a part of GDSC Solution Challenge and WOW hackathon.',
       github: 'https://github.com/AaronVincent6411/Water-Leakage-Resolver',
-      image: 'https://live.staticflickr.com/65535/52804399300_2027b069d2_n.jpg'
+      image: 'https://live.staticflickr.com/65535/52808053524_e56f62d278_k.jpg'
     },
     {
       id: 9,
       title: 'ChatGPT Clone',
       description: 'This project is done as a part of enhancing react.js skill using OpenAI API',
       github: 'https://github.com/AaronVincent6411/Chatgpt-Clone-Reactjs',
-      image: 'https://live.staticflickr.com/65535/52804399300_2027b069d2_n.jpg'
+      image: 'https://live.staticflickr.com/65535/52808053524_e56f62d278_k.jpg'
     },
     {
       id: 10,
       title: 'My Flutter App',
       description: 'This project is done as part of enhancing dart and flutter skill',
       github: 'https://github.com/AaronVincent6411/First-Flutter-App',
-      image: 'https://live.staticflickr.com/65535/52804399300_2027b069d2_n.jpg'
+      image: 'https://live.staticflickr.com/65535/52808053524_e56f62d278_k.jpg'
+    },
+    {
+      id: 11,
+      title: 'Kathakali Mudra Recognition',
+      description: 'This project is done as team which consists of students Srinidhi, Rahul, Gauri and me. This project is a kathakali mudra detection system.',
+      github: 'https://github.com/AaronVincent6411/Project-Kathakali',
+      image: 'https://live.staticflickr.com/65535/52808053524_e56f62d278_k.jpg'
     },
   ];
 
