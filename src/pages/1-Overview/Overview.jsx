@@ -265,12 +265,12 @@ function Overview () {
         </div>
         <div className='inner-rectangle-6'>
         <div className='text-6'>
-            Completed Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2
+            Completed Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4
           </div>
         </div>
         <div className='inner-rectangle-7'>
           <div className='text-7'>
-            Current Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4
+            Currently Working&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7
           </div>
         </div>
         <Header/>
