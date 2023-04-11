@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
-import Header from "../../components/Header/HeaderT";
-import './Timeline.css'
+import Header from "../../components/Header/HeaderCO";
+import './Competencies.css'
 
-function Timeline() {
+function Competencies() {
     const myStyle = {
         background: 'linear-gradient(to right, #632636, #392A48)',
         height: '100vh',
@@ -16,11 +16,11 @@ function Timeline() {
                 <div className="rectangle">
                    <Navbar/>
                    <Header/>
-                   <div className='heading'>Timeline</div>
+                   <div className='heading'>Competencies</div>
                 </div>
             </div>
         </div>
     );
 }
 
-export default Timeline
+export default Competencies

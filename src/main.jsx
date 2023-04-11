@@ -4,7 +4,7 @@ import App from './App'
 import './index.css'
 import About from './pages/2-About/About'
 import Projects from './pages/3-Projects/Projects'
-import Timeline from './pages/4-Timeline/Timeline'
+import Competencies from './pages/4-Competencies/Competencies'
 import Contact from './pages/5-Contact/Contact'
 
 import {
@@ -26,8 +26,8 @@ const router = createBrowserRouter([
     element: <Projects/>,
   },
   {
-    path: "/timeline",
-    element: <Timeline/>,
+    path: "/competencies",
+    element: <Competencies/>,
   },
   {
     path: "/contact",
