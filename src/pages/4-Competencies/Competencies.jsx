@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/HeaderCO";
 import './Competencies.css'
+import Skills from '../../components/Skills/Skills';
 
 function Competencies() {
     const myStyle = {
@@ -17,6 +18,9 @@ function Competencies() {
                    <Navbar/>
                    <Header/>
                    <div className='heading'>Competencies</div>
+                   <div className="skills">
+                    <Skills/>
+                   </div>
                 </div>
             </div>
         </div>
