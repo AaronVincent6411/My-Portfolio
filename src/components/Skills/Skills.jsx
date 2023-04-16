@@ -1,18 +1,53 @@
 import React from "react";
-import './Skills.css';
+import "./Skills.css";
 
 function Skills() {
-
   const skillsData = [
-    { skillName: 'JavaScript', proficiencyLevel: 80 },
-    { skillName: 'HTML/CSS', proficiencyLevel: 90 },
-    { skillName: 'React', proficiencyLevel: 70 },
-    { skillName: 'Node.js', proficiencyLevel: 60 },
-    { skillName: 'Git', proficiencyLevel: 80 },
+    {
+      skillName: "Python",
+      proficiencyLevel: 90,
+      imageSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    },
+    {
+      skillName: "Leadership",
+      proficiencyLevel: 90,
+      imageSrc: "src/assets/leadership-icon.png",
+    },
+    {
+      skillName: "C++",
+      proficiencyLevel: 80,
+      imageSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+    },
+    {
+      skillName: "React",
+      proficiencyLevel: 80,
+      imageSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    },
+    {
+      skillName: "C",
+      proficiencyLevel: 70,
+      imageSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+    },
+    {
+      skillName: "Flutter",
+      proficiencyLevel: 60,
+      imageSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
+    },
+    {
+      skillName: "Java",
+      proficiencyLevel: 60,
+      imageSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+    },
+    {
+      skillName: "Pytorch",
+      proficiencyLevel: 60,
+      imageSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg",
+    },
   ];
 
   const skillsBars = skillsData.map((skill, index) => (
     <div className="skill-bar-container" key={index}>
+      <img className="skill-icon" src={skill.imageSrc} alt={skill.skillName} />
       <div className="skill-name">{skill.skillName}</div>
       <div className="skill-bar">
         <div
@@ -24,21 +59,12 @@ function Skills() {
     </div>
   ));
 
-  return(
+  return (
     <div className="skills-rectangle-1">
-      <h3>
-        Skills
-      </h3>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" className='Skills-CPP'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" className='Skills-Python'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" className='Skills-C'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" className='Skills-React'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" className='Skills-Java'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" className='Skills-Flutter'/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" className='Skills-Pytorch'/>
+      <h3>Skills</h3>
       <div className="skills-bars">{skillsBars}</div>
     </div>
   );
 }
 
-export default Skills
+export default Skills;
