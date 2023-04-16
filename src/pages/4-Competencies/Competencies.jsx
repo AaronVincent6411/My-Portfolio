@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/HeaderCO";
 import './Competencies.css'
 import Skills from '../../components/Skills/Skills';
+import Achievements from "../../components/Achievements/Achievements";
 
 function Competencies() {
     const myStyle = {
@@ -20,6 +21,9 @@ function Competencies() {
                    <div className='heading'>Competencies</div>
                    <div className="skills">
                     <Skills/>
+                   </div>
+                   <div className="achievements">
+                    <Achievements/>
                    </div>
                 </div>
             </div>
