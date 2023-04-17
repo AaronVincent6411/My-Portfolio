@@ -8,8 +8,9 @@
     top: 18%;
     right: 5%;
     border-radius: 40px;
-    height: 75%;
+    height: 350px;
     width: 45%;
+    text-align: left;
 }
 
 .acv-rectangle-1 h3 {
@@ -18,5 +19,15 @@
     position: absolute;
     left: 5%;
     top: 1%;
+  }
+  
+.acv-rectangle-1 p1 {
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    left: 6%;
+    top: 8%;
+    line-height: 3rem;
+    margin-right: 10%;
   }
   
