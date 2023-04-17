@@ -6,11 +6,9 @@ import About from './pages/2-About/About'
 import Projects from './pages/3-Projects/Projects'
 import Competencies from './pages/4-Competencies/Competencies'
 import Contact from './pages/5-Contact/Contact'
-
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import {  createBrowserRouter,  RouterProvider } from "react-router-dom";
+import Achievements from './components/Achievements/Achievements'
+import Certifications from './components/Certifications/Certifications'
 
 const router = createBrowserRouter([
   {
@@ -33,6 +31,14 @@ const router = createBrowserRouter([
     path: "/contact",
     element: <Contact/>,
   },
+  {
+    path: "/achievements",
+    element: <Achievements/>,
+  },
+  {
+    path: "/certifications",
+    element: <Certifications/>,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -40,15 +46,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <RouterProvider router={router} />
   </React.StrictMode>,
 )
-
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// import { BrowserRouter } from 'react-router-dom';
-// import App from './App';
-
-// ReactDOM.render(
-//   <BrowserRouter>
-//     <App />
-//   </BrowserRouter>,
-//   document.getElementById('root')
-// );
