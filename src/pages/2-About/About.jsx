@@ -4,16 +4,10 @@ import Header from "../../components/Header/HeaderA";
 import './About.css'
 import Typed from "typed.js";
 import { useEffect, useRef, useState } from "react";
-import Skills from "../../components/Skills/Skills";
+import resume from '../../assets/Resume.pdf'
+
 
 function About() {
-//     const [isSkillsBoxOpen, setIsSkillsBoxOpen] = useState(false);
-
-//   const handleSkillsBoxClick = () => {
-//     setIsSkillsBoxOpen(!isSkillsBoxOpen);
-//   };
-
-//   const skills = ['React', 'Node.js', 'JavaScript', 'HTML', 'CSS', 'Git'];
 
     const myself = useRef(null);
 
@@ -45,6 +39,11 @@ function About() {
                    <Navbar/>
                    <div className='heading'>About</div>
                    <Header/>
+                   <div className='img-rectangle'>
+                    <a href={ resume } download>
+                        <img src='/src/assets/Profile.png' className="profile"/>
+                    </a>
+                   </div>
                    <div className="myself-rectangle">
                     <div className="h3-myself" ref={myself}></div>
                    </div>
@@ -72,8 +71,6 @@ function About() {
                         Kerala
                     </div>
                    </div>
-                   {/* <button onClick={handleSkillsBoxClick}>Skills</button>
-              {isSkillsBoxOpen && <Skills skills={skills} />} */}
                 </div>
             </div>
         </div>

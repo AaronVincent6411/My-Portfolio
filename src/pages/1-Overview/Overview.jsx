@@ -11,8 +11,9 @@ import stopIcon from '../../assets/stop-icon.png'
 import song1 from '../../assets/Ava-Famy.mp3'
 import song2 from '../../assets/Wavin-Flag.mp3'
 // import playIcon from '../../assets/play-icon.png'
-import resume from '../../assets/Resume.pdf'
-import resumeIcon from '../../assets/resume-icon.jpg'
+// import resume from '../../assets/Resume.pdf'
+// import resumeIcon from '../../assets/resume-icon.jpg'
+import { Link } from 'react-router-dom';
 
 function Overview () {
   const el1 = useRef(null);
@@ -274,6 +275,11 @@ function Overview () {
           </div>
         </div>
         <Header/>
+        <Link to="/about">
+          <div className='img-rectangle'>
+            <img src='/src/assets/Profile.png' className="profile"/>
+          </div>
+        </Link>
       </div>
     </div>
   );

@@ -31,6 +31,22 @@
     z-index: 1;   
  }
 
+.img-rectangle {
+    background: linear-gradient(to right, #632636, #392A48);
+    height: 25%;
+    width: 15%;
+    top: 27.5%;
+    left: 20%;
+    position: absolute;
+  }
+
+.profile {
+    position: fixed;
+    top: 2.1%;
+    left: 19.8%;
+    width:19.3%;
+  }
+
 .myself-rectangle {
     background-color: #000000;
     position: absolute;
