@@ -1,6 +1,7 @@
 import React from "react";
 import './Header.css';
 import resume from '../../assets/Resume.pdf'
+import { Link } from "react-router-dom";
 
 function Header() {
 
@@ -30,9 +31,9 @@ function Header() {
             </div>
             <div className='img-rectangle'>
             </div>
-            <a href='#'>
+            <Link to='/'>
                 <img src="https://live.staticflickr.com/65535/52783270220_87fdc16456_b.jpg" className='lionex-png'/>
-            </a>
+            </Link>
             <div className='profile'>
                 <a href={ resume } download>
                     <img src='/src/assets/Profile.png'/>

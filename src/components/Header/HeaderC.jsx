@@ -1,5 +1,6 @@
 import React from "react";
 import './Header.css';
+import { Link } from "react-router-dom";
 
 function Header() {
 
@@ -27,7 +28,9 @@ function Header() {
                 </ul>
                 </div>
             </div>
-            <img src="https://live.staticflickr.com/65535/52783270220_87fdc16456_b.jpg" className='lionex-png'/>
+            <Link to='/'>
+                <img src="https://live.staticflickr.com/65535/52783270220_87fdc16456_b.jpg" className='lionex-png'/>
+            </Link>
             <div className='line'>
             </div>
         </div>
