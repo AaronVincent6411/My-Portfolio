@@ -23,6 +23,7 @@ function Achievements() {
                         <p1>3. Secured 1st Prize in Best Out of Waste at school level</p1>
                         <p1>4. Me, Anju and Ashwin Pradeep won 1st in Eloquor Cluster 3 conducted by IEEE</p1>
                         <p1>5. Me and my friend Anju got 3rd Prize in Debate competition conducted by NSS NITC</p1>
+                        <p1>6. Secured consolation prize in PPT making competition conducted by NSS ASIET</p1>
                     </div>
                 </div>
             </div>
