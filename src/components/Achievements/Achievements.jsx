@@ -24,6 +24,7 @@ function Achievements() {
                         <p1>4. Me, Anju and Ashwin Pradeep won 1st in Eloquor Cluster 3 conducted by IEEE</p1>
                         <p1>5. Me and my friend Anju got 3rd Prize in Debate competition conducted by NSS NITC</p1>
                         <p1>6. Secured consolation prize in PPT making competition conducted by NSS ASIET</p1>
+                        <p1>7. Secured 1st Prize in Idea Pitching Competition in associated with Dextra22</p1>
                     </div>
                 </div>
             </div>
