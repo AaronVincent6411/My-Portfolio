@@ -41,8 +41,7 @@
     position: absolute;
     margin-top: 50%;
     line-height: 1.7em;
-    margin-left: 5.7%;
-    margin-right: 5.7%;
+    width: 330px;
   } 
 
 .github-icon {
