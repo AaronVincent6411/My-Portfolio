@@ -62,12 +62,12 @@
     left: 6%;
     top: 8%;
     line-height: 3rem;
-    margin-right: 10%;
+    margin-right: 8%;
   }
   
 .acv-rectangle-1 .view-more {
     position: absolute;
-    bottom: 0;
+    bottom: 0%;
     left: 22%;
     transform: translateX(-50%);
     margin-bottom: 0.8rem;
