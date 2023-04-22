@@ -41,7 +41,7 @@ function About() {
                    <Header/>
                    <div className='img-rectangle'>
                     <a href={ resume } download>
-                        <img src='/src/assets/Profile.png' className="profile"/>
+                        <img src='/src/assets/Profile.png'/>
                     </a>
                    </div>
                    <div className="myself-rectangle">

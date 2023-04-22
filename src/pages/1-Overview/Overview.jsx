@@ -277,7 +277,7 @@ function Overview () {
         <Header/>
         <Link to="/about">
           <div className='img-rectangle'>
-            <img src='/src/assets/Profile.png' className="profile"/>
+              <img src='/src/assets/Profile.png'/>
           </div>
         </Link>
       </div>

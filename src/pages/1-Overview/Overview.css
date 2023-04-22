@@ -95,6 +95,7 @@
   top: 27.5%;
   left: 20%;
   position: absolute;
+  align-items: center;
 }
 
 .lionex-png {
@@ -106,11 +107,11 @@
   height: 33px;
 }
 
-.profile {
-  position: fixed;
-  top: 2.1%;
-  left: 19.8%;
-  width:19.3%;
+.img-rectangle img{
+  position: absolute;
+  width: 62%;
+  bottom: 0%;
+  left: 18%;
 }
 
 .line {
