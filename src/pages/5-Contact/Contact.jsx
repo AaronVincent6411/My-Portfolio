@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/HeaderC";
 import './Contact.css'
+import ContactForm from "../../components/Form/Form";
 
 function Contact() {
     const myStyle = {
@@ -17,6 +18,10 @@ function Contact() {
                    <Navbar/>
                    <Header/>
                    <div className='heading'>Contact</div>
+                   <div className="contact-rectangle">
+                    <h3>Connect me</h3>
+                    <ContactForm/>
+                   </div>
                 </div>
             </div>
         </div>
