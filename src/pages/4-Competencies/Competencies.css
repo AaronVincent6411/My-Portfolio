@@ -81,11 +81,11 @@
     color: #fff;
     border: none;
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
   }
   
 .acv-rectangle-1 .view-more button:hover {
     background-color: #4d4d4d;
+    animation: cchange 2000ms infinite;
   }
 
 .cer-rectangle-1 {
@@ -124,8 +124,7 @@
 .cer-rectangle-1 .view-more {
   position: absolute;
   bottom: 11.5%;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 43%;
   margin-bottom: 0.8rem;
 }
 
@@ -137,9 +136,16 @@
   color: #fff;
   border: none;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
 }
 
 .cer-rectangle-1 .view-more button:hover {
   background-color: #4d4d4d;
+  animation: cchange 2000ms infinite;
+}
+
+@keyframes cchange {
+  50% {
+    background-color: #fff;
+    color: black;
+  }
 }
