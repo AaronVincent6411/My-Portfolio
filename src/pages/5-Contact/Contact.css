@@ -34,3 +34,50 @@
   text-align: center;
   font-size: 28px;
 }
+
+.contact-rectangle-1 {
+  background-color: black;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  border-radius: 40px;
+  height: 54%;
+  width: 45%;
+}
+
+.contact-rectangle-1 img {
+  width: 60%;
+  padding: 50px;
+  position: absolute;
+  left: 25%;
+}
+
+.contact-rectangle-2 {
+  background-color: black;
+  position: absolute;
+  bottom: 4%;
+  right: 5%;
+  border-radius: 40px;
+  height: 15%;
+  width: 33%;
+}
+
+
+.contact-rectangle-2 nav {
+  display: flex;
+  padding: 0 30px;
+}
+
+.contact-rectangle-2 nav ul {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  top: -5%;
+  padding: 0px;
+}
+
+.contact-rectangle-2 nav li {
+  margin: 20px;
+  text-align: left;
+  margin-right: 55px;
+}
