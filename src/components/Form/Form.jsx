@@ -5,7 +5,7 @@ import './Form.css'
 
 function ContactForm() {
 // const mailgun = new Mailgun(formData);
-// const mg = mailgun.client({username: 'api', key: process.env.MAILGUN_API_KEY || '45c194c167b103a0d53b03236714a8c5-181449aa-1b8f7c44'});
+// const mg = mailgun.client({username: 'api', key: process.env.MAILGUN_API_KEY || 'api_key'});
 
 // mg.messages.create('sandbox-123.mailgun.org', {
 // 	from: "Excited User <mailgun@sandbox-123.mailgun.org>",
@@ -69,8 +69,8 @@ function ContactForm() {
   //   });
   // }
 
-//   const API_KEY = '45c194c167b103a0d53b03236714a8c5-181449aa-1b8f7c44';
-// const DOMAIN = 'https://app.mailgun.com/app/sending/domains/sandboxd31f4e7da4374123bbd2f71e3afbb478.mailgun.org';
+//   const API_KEY = '';
+// const DOMAIN = '';
 
 // const mailgun = new Mailgun(formData);
 // const client = mailgun.client({username: 'api', key: API_KEY});
