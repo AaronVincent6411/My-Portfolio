@@ -21,12 +21,12 @@ function Contact() {
                    <Navbar/>
                    <Header/>
                    <div className='heading'>Contact</div>
+                   <div className="contact-rectangle-1">
+                    <img src="src/assets/contact-me.jpg"/>
+                   </div>
                    <div className="contact-rectangle">
                     <h3>Connect me</h3>
                     <ContactForm/>
-                   </div>
-                   <div className="contact-rectangle-1">
-                    <img src="src/assets/contact-me.jpg"/>
                    </div>
                    <div className="contact-rectangle-2">
                    <nav>
