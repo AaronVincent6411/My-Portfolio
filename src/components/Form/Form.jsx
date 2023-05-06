@@ -24,18 +24,18 @@ function ContactForm() {
     event.preventDefault();
 
     const data = {
-      from: 'aaronvincent6411@gmail.com',
+      from: `${name} <${email}>`,
       to: 'aaronvincent6411@gmail.com',
-      subject: 'New message from your website',
-      text: `${name} ${message}`,
+      subject: 'New message from website',
+      text: message,
     };
 
     axios({
       method: 'post',
-      url: 'https://api.mailgun.net/v3/sandboxd31f4e7da4374123bbd2f71e3afbb478.mailgun.org/messages',
+      url: '',
       auth: {
         username: 'api',
-        password: '45c194c167b103a0d53b03236714a8c5-181449aa-1b8f7c44',
+        password: '',
       },
       data,
     })
