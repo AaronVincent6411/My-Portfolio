@@ -14,6 +14,7 @@ import song2 from '../../assets/Wavin-Flag.mp3'
 // import resume from '../../assets/Resume.pdf'
 // import resumeIcon from '../../assets/resume-icon.jpg'
 import { Link } from 'react-router-dom';
+//import Response from '../../components/Responsive/Responsive';
 
 function Overview () {
   const el1 = useRef(null);
@@ -125,6 +126,7 @@ function Overview () {
   // }  
 
   return(
+    //<Response>
     <div className="container">
       <div className="rectangle">
         <Navbar/>
@@ -282,6 +284,7 @@ function Overview () {
         </Link>
       </div>
     </div>
+    //</Response>
   );
 }
 
