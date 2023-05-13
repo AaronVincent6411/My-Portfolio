@@ -22,7 +22,7 @@ function Contact() {
                    <Header/>
                    <div className='heading'>Contact</div>
                    <div className="contact-rectangle-1">
-                    <img src="src/assets/contact-me.jpg"/>
+                    <img src="https://live.staticflickr.com/65535/52895350520_c0a63c30fd_c.jpg"/>
                    </div>
                    <div className="contact-rectangle">
                     <h3>Connect me</h3>
