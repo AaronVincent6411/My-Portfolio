@@ -15,6 +15,7 @@ import song2 from '../../assets/Wavin-Flag.mp3'
 // import resumeIcon from '../../assets/resume-icon.jpg'
 import { Link } from 'react-router-dom';
 //import Response from '../../components/Responsive/Responsive';
+import profile from '/src/assets/Profile.png';
 
 function Overview () {
   const el1 = useRef(null);
@@ -279,7 +280,7 @@ function Overview () {
         <Header/>
         <Link to="/about">
           <div className='img-rectangle'>
-              <img src='/src/assets/Profile.png'/>
+              <img src={profile}/>
           </div>
         </Link>
       </div>
