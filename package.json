@@ -23,7 +23,9 @@
     "react-loaders": "^3.0.1",
     "react-router-dom": "^6.10.0",
     "react-scroll": "^1.8.9",
+    "react-slick": "^0.29.0",
     "sass": "^1.62.1",
+    "slick-carousel": "^1.8.1",
     "swiper": "^9.2.0",
     "typed-js": "^0.2.3",
     "vue-typed-js": "^0.1.2"
