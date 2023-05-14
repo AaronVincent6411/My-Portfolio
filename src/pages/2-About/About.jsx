@@ -5,7 +5,7 @@ import './About.css'
 import Typed from "typed.js";
 import { useEffect, useRef, useState } from "react";
 import resume from '../../assets/Resume.pdf'
-
+import profile from '/src/assets/Profile.png';
 
 function About() {
 
@@ -41,7 +41,7 @@ function About() {
                    <Header/>
                    <div className='img-rectangle'>
                     <a href={ resume } download>
-                        <img src='/src/assets/Profile.png'/>
+                        <img src={profile}/>
                     </a>
                    </div>
                    <div className="myself-rectangle">

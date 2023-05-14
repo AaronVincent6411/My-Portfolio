@@ -1,5 +1,6 @@
 import React from "react";
 import "./Skills.css";
+import leadicon from '/src/assets/leadership-icon.png'
 
 function Skills() {
   const skillsData = [
@@ -12,6 +13,7 @@ function Skills() {
       skillName: "Leadership",
       proficiencyLevel: 90,
       imageSrc: "src/assets/leadership-icon.png",
+      // imageSrc: { leadicon },
     },
     {
       skillName: "C++",
@@ -30,7 +32,7 @@ function Skills() {
     },
     {
       skillName: "Flutter",
-      proficiencyLevel: 60,
+      proficiencyLevel: 70,
       imageSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
     },
     {
