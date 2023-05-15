@@ -5,7 +5,9 @@ import 'slick-carousel/slick/slick-theme.css';
 import './Certifications.css';
 import Header from '../Header/HeaderCER';
 import Navbar from '../Navbar/Navbar';
-import { GrValidate } from 'react-icons/gr';
+import { TiTick } from 'react-icons/ti';
+
+import { BiCertification } from 'react-icons/bi';
 
 const Certifications = () => {
   const images = [
@@ -61,7 +63,7 @@ const Certifications = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    afterChange: handleSlideChange
+    afterChange: handleSlideChange,
   };
 
   const myStyle = {
@@ -81,20 +83,25 @@ const Certifications = () => {
           <Header />
           <div className="heading">Certifications</div>
           <div className="certificate-rectangle-1">
-            <div className="certificate-h3">Issuing organization</div>
+            <div className="certificate-h3">Issued organization</div>
             <div className="certificate-t1">{organizations[currentSlide]}</div>
           </div>
           <div className="certificate-rectangle-2">
             <div className="certificate-h3">Issued on</div>
             <div className="certificate-t1">{issuedDates[currentSlide]}</div>
           </div>
+          <div className='certificate-rectangle-3'>
+          <div className="certificate-h3">Verify</div>
           <a
             href={links[currentSlide]}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <GrValidate className="validate-icon" />
+                <TiTick className="validate-icon" />
+                <BiCertification className="validate-outer-icon" />
           </a>
+          </div>
+          <div className='cert-rectangle-main'></div>
           <div className="cert-rectangle">
             <Slider {...settings}>
               {images.map((image, index) => (
