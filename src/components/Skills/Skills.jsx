@@ -12,8 +12,7 @@ function Skills() {
     {
       skillName: "Leadership",
       proficiencyLevel: 90,
-      imageSrc: "src/assets/leadership-icon.png",
-      // imageSrc: { leadicon },
+      imageSrc: leadicon,
     },
     {
       skillName: "C++",
