@@ -39,11 +39,11 @@ function About() {
                    <Navbar/>
                    <div className='heading'>About</div>
                    <Header/>
-                   <div className='img-rectangle'>
-                    <a href={ resume } download>
+                   <a href={ resume } download>
+                    <div className='img-rectangle'>
                         <img src={profile}/>
-                    </a>
-                   </div>
+                    </div>
+                   </a>
                    <div className="myself-rectangle">
                     <div className="h3-myself" ref={myself}></div>
                    </div>
@@ -52,7 +52,7 @@ function About() {
                         Age
                     </div>
                     <div className="age-t1">
-                        20
+                        21
                     </div>
                    </div>
                    <div className="role-rectangle">
