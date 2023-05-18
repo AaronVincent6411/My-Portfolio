@@ -68,6 +68,7 @@
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    line-height: 1.8rem;
   }
   
   .form-group textarea {
