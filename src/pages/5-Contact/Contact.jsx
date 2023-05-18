@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
 import {SiLinktree} from "react-icons/si";
 
+import { BiCopyright } from 'react-icons/bi'
+
 function Contact() {
     const myStyle = {
         background: 'linear-gradient(to right, #632636, #392A48)',
@@ -27,6 +29,11 @@ function Contact() {
                    <div className="contact-rectangle">
                     <h3>Connect me</h3>
                     <ContactForm/>
+                    <div>
+                        <t1>Copyright</t1>
+                        <BiCopyright className="copyright"/>
+                        <t2>aaron11  😁</t2>
+                    </div>
                    </div>
                    <div className="contact-rectangle-2">
                    <nav>
