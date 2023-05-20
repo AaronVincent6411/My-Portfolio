@@ -1,0 +1,108 @@
+.container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+.rectangle {
+    background-color: #222429;
+    height: 90vh;
+    width: 90vw;
+    max-height: calc(100vh - 40px);
+    max-width: calc(100vw - 40px);
+    border-radius: 40px;
+    position: relative;
+  }
+
+  .contact-rectangle {
+    background-color: black;
+    position: absolute;
+    top: 18%;
+    left: 20%;
+    border-radius: 40px;
+    height: 78%;
+    width: 38%;
+  }
+
+.contact-rectangle h3 {
+  text-align: center;
+  font-size: 28px;
+}
+
+.contact-rectangle-1 {
+  background-color: black;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  border-radius: 40px;
+  height: 54%;
+  width: 45%;
+}
+
+.contact-rectangle-1 img {
+  width: 60%;
+  padding: 50px;
+  position: absolute;
+  left: 25%;
+}
+
+.contact-rectangle-2 {
+  background-color: black;
+  position: absolute;
+  bottom: 4%;
+  right: 5%;
+  border-radius: 40px;
+  height: 15%;
+  width: 33%;
+}
+
+
+.contact-rectangle-2 nav {
+  display: flex;
+  padding: 0 30px;
+}
+
+.contact-rectangle-2 nav ul {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  top: -5%;
+  padding: 0px;
+}
+
+.contact-rectangle-2 nav li {
+  margin: 20px;
+  text-align: left;
+  margin-right: 55px;
+}
+
+.copyright {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 48%;
+  bottom: 2%;
+}
+
+.contact-rectangle t1 {
+  position: absolute;
+  left: 38%;
+  bottom: 2%;
+  font-size: 13px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.contact-rectangle t2 {
+  position: absolute;
+  left: 52%;
+  bottom: 2%;
+  font-size: 13px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

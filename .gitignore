@@ -22,7 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-Skills
 Chat.jsx
+src/components/Layout
+pages.jsx
 play-icon.png
 resume-icon.jpg
+.env

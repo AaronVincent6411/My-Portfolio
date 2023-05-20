@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronVincent6411/My-Portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "react",
+    "backend",
+    "frontend"
+  ],
+  "author": "Aaron Vincent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AaronVincent6411/My-Portfolio/issues"
+  },
+  "homepage": "https://github.com/AaronVincent6411/My-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
