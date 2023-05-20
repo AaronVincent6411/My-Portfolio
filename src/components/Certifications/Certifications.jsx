@@ -11,11 +11,11 @@ import { BiCertification } from 'react-icons/bi';
 
 const Certifications = () => {
   const images = [
-    'https://live.staticflickr.com/65535/52895391743_8d3abca992_c.jpg',
+    'https://live.staticflickr.com/65535/52912305718_7e68e6e2d0_c.jpg',
 
     'https://live.staticflickr.com/65535/52894368797_8f7d06d2cf_c.jpg',
 
-    'https://live.staticflickr.com/65535/52895391738_bf208f8cf6_c.jpg'
+    'https://live.staticflickr.com/65535/52911848196_e1948fc11d_c.jpg'
   ];
 
   const texts = [
@@ -32,8 +32,8 @@ const Certifications = () => {
 
   const issuedDates = [
     'April 2023',
-    'Feb 2023',
-    'Jan 2023'
+    'Februvary 2023',
+    'January 2023'
   ];
 
   const links = [
