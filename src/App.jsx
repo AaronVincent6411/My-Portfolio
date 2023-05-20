@@ -1,4 +1,4 @@
-import Overview from "./pages/1-Overview/Overview"
+import Overview from "./pages/1-Overview/Overview";
 
 function App() {
   const myStyle = {
@@ -7,13 +7,21 @@ function App() {
     width: '100vw'
   };
 
+  const isMobile = window.innerWidth <= 767;
+
   return (
     <div style={myStyle}>
-      <div>
-        <Overview/>
-      </div>
+      {isMobile ? (
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+          <h2>Sorry friends i havn't made website responsive 😅 . Please use a laptop or desktop to view this website 😁.</h2>
+        </div>
+      ) : (
+        <div>
+          <Overview />
+        </div>
+      )}
     </div>
-  )
+  );
 }
 
 export default App;
