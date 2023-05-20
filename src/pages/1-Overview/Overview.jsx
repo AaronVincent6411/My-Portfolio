@@ -98,8 +98,8 @@ function Overview () {
       const randomSong = Math.random() < 0.2 ? song1 : Math.random() < 0.3 ? song2 : Math.random() < 0.4 ? song3 : Math.random() < 0.5 ? song4 : song5;
       audioRef.current.src = randomSong;
       audioRef.current.play();
-      const fileName = randomSong.replace(/^.*[\\/]/, '').slice(0, -4);
-      setSongName(fileName);
+      // const fileName = randomSong.replace(/^.*[\\/]/, '').slice(0, -4);
+      setSongName('Playing');
     }
     setIsPlaying(isPlaying);
   }
