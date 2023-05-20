@@ -10,9 +10,6 @@ import musicIcon from '../../assets/music-icon.png'
 import stopIcon from '../../assets/stop-icon.png'
 import song1 from '../../assets/Ava-Famy.mp3'
 import song2 from '../../assets/Wavin-Flag.mp3'
-import song3 from '../../assets/Thunder.mp3'
-import song4 from '../../assets/Sharks.mp3'
-import song5 from '../../assets/Believer.mp3'
 // import playIcon from '../../assets/play-icon.png'
 // import resume from '../../assets/Resume.pdf'
 // import resumeIcon from '../../assets/resume-icon.jpg'
@@ -95,7 +92,7 @@ function Overview () {
       audioRef.current.currentTime = 0;
       setSongName('None');
     } else {
-      const randomSong = Math.random() < 0.2 ? song1 : Math.random() < 0.3 ? song2 : Math.random() < 0.4 ? song3 : Math.random() < 0.5 ? song4 : song5;
+      const randomSong = Math.random() < 0.5 ? song1 : song2;
       audioRef.current.src = randomSong;
       audioRef.current.play();
       const fileName = randomSong.replace(/^.*[\\/]/, '').slice(0, -4);
