@@ -60,10 +60,10 @@ function Slider() {
     },
     {
       id: 8,
-      title: 'Water Leakage Resolver',
-      description: 'This is a project done by me and my team members Benchacko, Jonathan and Sreyas as a part of GDSC Solution Challenge and WOW hackathon.',
-      github: 'https://github.com/AaronVincent6411/Water-Leakage-Resolver',
-      image: 'https://live.staticflickr.com/65535/52895341775_2d17fecd3c_c.jpg'
+      title: 'Kathakali Mudra Recognition',
+      description: 'This project is done as team which consists of students Srinidhi, Rahul, Gauri and me. This project is a kathakali mudra detection system.',
+      github: 'https://github.com/AaronVincent6411/Project-Kathakali',
+      image: 'https://live.staticflickr.com/65535/52911866111_bea833c85a_c.jpg'
     },
     {
       id: 9,
@@ -81,9 +81,9 @@ function Slider() {
     },
     {
       id: 11,
-      title: 'Kathakali Mudra Recognition',
-      description: 'This project is done as team which consists of students Srinidhi, Rahul, Gauri and me. This project is a kathakali mudra detection system.',
-      github: 'https://github.com/AaronVincent6411/Project-Kathakali',
+      title: 'Water Leakage Resolver',
+      description: 'This is a project done by me and my team members Benchacko, Jonathan and Sreyas as a part of GDSC Solution Challenge and WOW hackathon.',
+      github: 'https://github.com/AaronVincent6411/Water-Leakage-Resolver',
       image: 'https://live.staticflickr.com/65535/52895341775_2d17fecd3c_c.jpg'
     },
   ];
