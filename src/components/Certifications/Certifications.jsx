@@ -32,7 +32,7 @@ const Certifications = () => {
 
   const issuedDates = [
     'April 2023',
-    'Februvary 2023',
+    'February 2023',
     'January 2023'
   ];
 

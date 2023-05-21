@@ -7,13 +7,13 @@ function App() {
     width: '100vw'
   };
 
-  const isMobile = window.innerWidth <= 767;
+  const isMobile = window.innerWidth <= 1880;
 
   return (
     <div style={myStyle}>
       {isMobile ? (
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
-          <h2>Sorry friends i havn't made website responsive 😅 . Please use a laptop or desktop to view this website 😁.</h2>
+          <h2>Sorry friends i havn't made website responsive 😅 . Please use a laptop or desktop (15.6 inch size) to view this website 😁.</h2>
         </div>
       ) : (
         <div>
