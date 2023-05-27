@@ -17,7 +17,6 @@ import song5 from '../../assets/Believer.mp3'
 // import resume from '../../assets/Resume.pdf'
 // import resumeIcon from '../../assets/resume-icon.jpg'
 import { Link } from 'react-router-dom';
-//import Response from '../../components/Responsive/Responsive';
 import profile from '/src/assets/Profile.png';
 
 function Overview () {
@@ -130,7 +129,6 @@ function Overview () {
   // }  
 
   return(
-    //<Response>
     <div className="container">
       <div className="rectangle">
         <Navbar/>
@@ -288,7 +286,6 @@ function Overview () {
         </Link>
       </div>
     </div>
-    //</Response>
   );
 }
 
