@@ -1,160 +1,321 @@
-.container {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-  }
-  
-.rectangle {
-    background-color: #222429;
-    height: 90vh;
-    width: 90vw;
-    max-height: calc(100vh - 40px);
-    max-width: calc(100vw - 40px);
-    border-radius: 40px;
-    position: relative;
-  }
-  
-.heading {
-    font-size: 32px;
-    position: absolute;
-    top: 10%;
-    left: 20%;
-    text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    z-index: 1;   
- }
+@media (min-width: 1880px) and (max-width: 1920px) {
 
-.img-rectangle {
-    background: linear-gradient(to right, #632636, #392A48);
-    height: 25%;
-    width: 15%;
-    top: 27.5%;
-    left: 20%;
-    position: absolute;
-  }
+    .container {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .rectangle {
+        background-color: #222429;
+        height: 90vh;
+        width: 90vw;
+        max-height: calc(100vh - 40px);
+        max-width: calc(100vw - 40px);
+        border-radius: 40px;
+        position: relative;
+    }
+    
+    .heading {
+        font-size: 32px;
+        position: absolute;
+        top: 10%;
+        left: 20%;
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        z-index: 1;   
+    }
 
-.img-rectangle img{
-    position: absolute;
-    width: 62%;
-    bottom: 0%;
-    left: 18%;
-  }
+    .img-rectangle {
+        background: linear-gradient(to right, #632636, #392A48);
+        height: 25%;
+        width: 15%;
+        top: 27.5%;
+        left: 20%;
+        position: absolute;
+    }
 
-.profile {
-    position: fixed;
-    top: 2.1%;
-    left: 19.8%;
-    width:19.3%;
-  }
+    .img-rectangle img{
+        position: absolute;
+        width: 62%;
+        bottom: 0%;
+        left: 18%;
+    }
 
-.myself-rectangle {
-    background-color: #000000;
-    position: absolute;
-    height: 80%;
-    width: 60%;
-    top: 15%;
-    right: 2.5%;
-    border-radius: 40px;
+    .profile {
+        position: fixed;
+        top: 2.1%;
+        left: 19.8%;
+        width:19.3%;
+    }
+
+    .myself-rectangle {
+        background-color: #000000;
+        position: absolute;
+        height: 80%;
+        width: 60%;
+        top: 15%;
+        right: 2.5%;
+        border-radius: 40px;
+    }
+
+    .h3-myself {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        word-spacing: 5px;
+        position: relative;
+        left: 5%;
+        top: 18px;
+        text-align: left;
+        font-size: 24px;
+        line-height: 2.5em;
+        margin-right: 7%;
+    }
+    
+    .age-rectangle {
+        background-color: #000000;
+        position: absolute;
+        height: 10%;
+        width: 15%;
+        top: 55%;
+        left: 20%;
+        border-radius: 30px;
+    }
+
+    .age-h3 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        position: relative;
+        left: 10%;
+        top: 15%;
+    }
+
+    .age-t1 {
+        position: relative;
+        right: 10%;
+        font-weight: 600;
+        font-size: 42px;
+        text-align: right;
+        bottom: 20%;
+    }
+
+    .role-rectangle {
+        background-color: #000000;
+        position: absolute;
+        height: 10%;
+        width: 15%;
+        top: 70%;
+        left: 20%;
+        border-radius: 30px;
+    }
+
+    .role-h3 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        position: relative;
+        left: 10%;
+        top: 15%;
+    }
+
+    .role-t1 {
+        position: relative;
+        right: 10%;
+        font-weight: 600;
+        font-size: 28px;
+        text-align: right;
+    }
+
+    .place-rectangle {
+        background-color: #000000;
+        position: absolute;
+        height: 10%;
+        width: 15%;
+        top: 85%;
+        left: 20%;
+        border-radius: 30px;
+    }
+
+    .place-h3 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        position: relative;
+        left: 10%;
+        top: 15%;
+    }
+
+    .place-t1 {
+        position: relative;
+        right: 10%;
+        font-weight: 600;
+        font-size: 28px;
+        text-align: right;
+    }
 }
 
-.h3-myself {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 500;
-    word-spacing: 5px;
-    position: relative;
-    left: 5%;
-    top: 18px;
-    text-align: left;
-    font-size: 24px;
-    line-height: 2.5em;
-    margin-right: 7%;
-  }
-  
-.age-rectangle {
-    background-color: #000000;
-    position: absolute;
-    height: 10%;
-    width: 15%;
-    top: 55%;
-    left: 20%;
-    border-radius: 30px;
-}
+@media (min-width: 1025px) and (max-width: 1440px) { 
+    .container {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .rectangle {
+        background-color: #222429;
+        height: 90vh;
+        width: 90vw;
+        max-height: calc(100vh - 40px);
+        max-width: calc(100vw - 40px);
+        border-radius: 40px;
+        position: relative;
+    }
+    
+    .heading {
+        font-size: 32px;
+        position: absolute;
+        top: 10%;
+        left: 20%;
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        z-index: 1;   
+    }
 
-.age-h3 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    position: relative;
-    left: 10%;
-    top: 15%;
-}
+    .img-rectangle {
+        background: linear-gradient(to right, #632636, #392A48);
+        height: 25%;
+        width: 15%;
+        top: 27.5%;
+        left: 20%;
+        position: absolute;
+      }
+    
+    .img-rectangle img{
+        position: absolute;
+        width: 75%;
+        bottom: 0%;
+        left: 13%;
+    }
 
-.age-t1 {
-    position: relative;
-    right: 10%;
-    font-weight: 600;
-    font-size: 42px;
-    text-align: right;
-    bottom: 20%;
-}
+    .myself-rectangle {
+        background-color: #000000;
+        position: absolute;
+        height: 80%;
+        width: 60%;
+        top: 15%;
+        right: 2.5%;
+        border-radius: 40px;
+    }
 
-.role-rectangle {
-    background-color: #000000;
-    position: absolute;
-    height: 10%;
-    width: 15%;
-    top: 70%;
-    left: 20%;
-    border-radius: 30px;
-}
+    .h3-myself {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        word-spacing: 5px;
+        position: relative;
+        left: 5%;
+        top: 18px;
+        text-align: left;
+        font-size: 21px;
+        line-height: 2.5em;
+        margin-right: 7%;
+    }
+    
+    .age-rectangle {
+        background-color: #000000;
+        position: absolute;
+        height: 10%;
+        width: 15%;
+        top: 55%;
+        left: 20%;
+        border-radius: 30px;
+    }
 
-.role-h3 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    position: relative;
-    left: 10%;
-    top: 15%;
-}
+    .age-h3 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        position: relative;
+        left: 10%;
+        top: 15%;
+    }
 
-.role-t1 {
-    position: relative;
-    right: 10%;
-    font-weight: 600;
-    font-size: 28px;
-    text-align: right;
-}
+    .age-t1 {
+        position: relative;
+        right: 10%;
+        font-weight: 600;
+        font-size: 33px;
+        text-align: right;
+        top: 5%;
+    }
 
-.place-rectangle {
-    background-color: #000000;
-    position: absolute;
-    height: 10%;
-    width: 15%;
-    top: 85%;
-    left: 20%;
-    border-radius: 30px;
-}
+    .role-rectangle {
+        background-color: #000000;
+        position: absolute;
+        height: 10%;
+        width: 15%;
+        top: 70%;
+        left: 20%;
+        border-radius: 30px;
+    }
 
-.place-h3 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    position: relative;
-    left: 10%;
-    top: 15%;
-}
+    .role-h3 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        position: relative;
+        left: 10%;
+        top: 15%;
+    }
 
-.place-t1 {
-    position: relative;
-    right: 10%;
-    font-weight: 600;
-    font-size: 28px;
-    text-align: right;
+    .role-t1 {
+        position: relative;
+        right: 10%;
+        font-weight: 600;
+        font-size: 22px;
+        text-align: right;
+        top: 15%;
+    }
+
+    .place-rectangle {
+        background-color: #000000;
+        position: absolute;
+        height: 10%;
+        width: 15%;
+        top: 85%;
+        left: 20%;
+        border-radius: 30px;
+    }
+
+    .place-h3 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        position: relative;
+        left: 10%;
+        top: 15%;
+    }
+
+    .place-t1 {
+        position: relative;
+        right: 10%;
+        font-weight: 600;
+        font-size: 22px;
+        text-align: right;
+        top: 15%;
+    }
 }
