@@ -7,7 +7,7 @@ function App() {
     width: '100vw'
   };
 
-  const isMobile = window.innerWidth <= 1880;
+  const isMobile = window.innerWidth <= 1400;
 
   return (
     <div style={myStyle}>
