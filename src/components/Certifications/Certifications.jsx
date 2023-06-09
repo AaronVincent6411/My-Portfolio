@@ -21,7 +21,9 @@ const Certifications = () => {
 
     'https://live.staticflickr.com/65535/53070178278_14de0a6371_c.jpg',
 
-    'https://live.staticflickr.com/65535/53269528873_f5df66eb9d_c.jpg'
+    'https://live.staticflickr.com/65535/53269528873_f5df66eb9d_c.jpg',
+
+    'https://live.staticflickr.com/65535/53269596974_ace6f9f53d_c.jpg'
   ];
 
   const texts = [
@@ -29,7 +31,8 @@ const Certifications = () => {
     'Intro to AI and ML',
     'Intro to Machine Learning',
     'Learn AI Challenge',
-    'Android with Compose'
+    'Android with Compose',
+    'Machine Learning with Tensorflow'
   ];
 
   const organizations = [
@@ -37,6 +40,7 @@ const Certifications = () => {
     'Deep Learning AI',
     'Kaggle',
     'Microsoft',
+    'TechLabs',
     'TechLabs'
   ];
 
@@ -45,6 +49,7 @@ const Certifications = () => {
     'February 2023',
     'January 2023',
     'August 2023',
+    'September 2023',
     'September 2023'
   ];
 
@@ -58,6 +63,8 @@ const Certifications = () => {
     'https://www.linkedin.com/posts/aaronvincent6411_microsoft-learn-ai-skills-challenge-activity-7088497234358530048-t2mE?utm_source=share&utm_medium=member_desktop',
 
     'https://live.staticflickr.com/65535/53269528873_f5df66eb9d_c.jpg',
+
+    'https://www.linkedin.com/posts/aaronvincent6411_tech-labs-initiative-activity-7102717031795367936-i9Xp?utm_source=share&utm_medium=member_desktop'
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
