@@ -1,17 +1,14 @@
 @media (min-width: 1880px){
   .container {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
+    min-height: 100vh;
+    background: linear-gradient(to right, #632636, #392A48);
+    min-width: 100vw;
   }
-
-
+  
   .rectangle {
     background-color: #222429;
     height: 90vh;
@@ -536,18 +533,16 @@
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1440px) {
+@media (min-width: 1320px) and (max-width: 1440px) {
 
   .container {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
+    min-height: 100vh;
+    background: linear-gradient(to right, #632636, #392A48);
+    min-width: 100vw;
   }
 
   .inner-rectangle {
