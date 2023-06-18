@@ -1,4 +1,4 @@
-@media (min-width: 1880px) and (max-width: 1920px) {
+@media (min-width: 1880px) {
 
     .container {
         position: fixed;
@@ -20,6 +20,7 @@
         max-width: calc(100vw - 40px);
         border-radius: 40px;
         position: relative;
+        color: white;
     }
     
     .heading {
@@ -162,7 +163,7 @@
     }
 }
 
-@media (min-width: 1025px) and (max-width: 1440px) { 
+@media (min-width: 1400px) and (max-width: 1440px) {
     .container {
         position: fixed;
         top: 0;

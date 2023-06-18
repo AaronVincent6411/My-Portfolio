@@ -39,22 +39,22 @@ function Contact() {
                    <nav>
                     <ul>
                         <li>
-                        <Link to="https://github.com/aaronvincent6411" style={{ fontSize: "60px" }} target="_blank">
+                        <Link to="https://github.com/aaronvincent6411" style={{ fontSize: "55px" }} target="_blank">
                             <AiFillGithub/>
                         </Link>
                         </li>
                        <li>
-                        <Link  to="https://www.linkedin.com/in/aaronvincent6411/" style={{ fontSize: "60px" }} target="_blank">
+                        <Link  to="https://www.linkedin.com/in/aaronvincent6411/" style={{ fontSize: "55px" }} target="_blank">
                             <AiFillLinkedin/>
                         </Link>
                         </li>
                         <li>
-                        <Link  to="https://www.instagram.com/aaronvincent6411/" style={{ fontSize: "60px" }} target="_blank">
+                        <Link  to="https://www.instagram.com/aaronvincent5411/" style={{ fontSize: "55px" }} target="_blank">
                             <AiFillInstagram/>
                         </Link>
                         </li>
                         <li>
-                        <Link  to="https://linktr.ee/aaronvincent11" style={{ fontSize: "60px" }} target="_blank">
+                        <Link  to="https://linktr.ee/aaronvincent11" style={{ fontSize: "55px" }} target="_blank">
                             <SiLinktree/>
                         </Link>
                         </li>
