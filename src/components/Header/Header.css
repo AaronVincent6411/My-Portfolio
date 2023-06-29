@@ -22,7 +22,7 @@
     min-width: 100%;
     gap: var(--gap);
     animation: scroll 20s linear infinite;
-    margin-top: 0.3%;
+    margin-top: 0.5%;
     opacity: 50%;
     list-style-type: none;
   }

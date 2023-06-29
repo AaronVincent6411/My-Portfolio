@@ -2,6 +2,7 @@ import React from "react";
 import './Achievements.css'
 import Header from "../Header/HeaderACV";
 import Navbar from "../Navbar/Navbar";
+import { Link } from "react-router-dom";
 
 function Achievements() {
     const myStyle = {
@@ -17,6 +18,11 @@ function Achievements() {
                     <Header/>
                     <Navbar/>
                     <div className="heading">Achievements</div>
+                    <div className="acv-back-button">
+                        <Link to='/competencies'> 
+                            <button>back</button>
+                        </Link>
+                    </div>
                     <div className="acv-rectangle-2">
                         <p1>1. Secured 3rd Prize in Malarvadi Competition in Sub-District Level </p1>
                         <p1>2. Secured 1st Prize in School level DCL Quiz Competition</p1>
