@@ -54,4 +54,25 @@
     line-height: 4.5rem;
     margin-right: 10%;
   }
+    
+.rectangle .acv-back-button {
+    position: absolute;
+    top: 10%;
+    right: 6.5%;
+    transform: translateX(-50%);
+    margin-bottom: 0.8rem;
+  }
   
+.rectangle .acv-back-button button {
+    padding: 0.1rem 1.5rem;
+    width: 8em;
+    height: 3em;
+    border-radius: 1rem;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+  }

@@ -8,6 +8,7 @@ import Navbar from '../Navbar/Navbar';
 import { TiTick } from 'react-icons/ti';
 
 import { BiCertification } from 'react-icons/bi';
+import { Link } from 'react-router-dom';
 
 const Certifications = () => {
   const images = [
@@ -82,6 +83,11 @@ const Certifications = () => {
           <Navbar />
           <Header />
           <div className="heading">Certifications</div>
+          <div className="cer-back-button">
+            <Link to='/competencies'> 
+              <button>back</button>
+            </Link>
+          </div>
           <div className="certificate-rectangle-1">
             <div className="certificate-h3">Issued organization</div>
             <div className="certificate-t1">{organizations[currentSlide]}</div>
