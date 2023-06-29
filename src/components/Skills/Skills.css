@@ -16,11 +16,12 @@
 }
 
 .skills-rectangle-1 h3 {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 600;
   position: absolute;
   left: 5%;
   top: 1%;
+  font-family: 'src/assets/Fonts/Belanosima-Regular.ttf';
 }
 
 .skills-bars {
@@ -85,11 +86,12 @@
   }
   
   .skills-rectangle-1 h3 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     position: absolute;
     left: 5%;
     top: 1%;
+    font-family: 'src/assets/Fonts/Belanosima-Regular.ttf';
   }
   
   .skills-bars {
