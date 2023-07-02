@@ -7,7 +7,7 @@ function App() {
   //   width: '100vw'
   // };
 
-  const isMobile = window.innerWidth < 1420;
+  const isMobile = window.innerWidth < 200;
 
   return (
     <div>
