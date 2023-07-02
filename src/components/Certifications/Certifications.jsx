@@ -82,7 +82,7 @@ const Certifications = () => {
         <div className="rectangle">
           <Navbar />
           <Header />
-          <div className="heading">Certifications</div>
+          <div className="cer-heading">Certifications</div>
           <div className="cer-back-button">
             <Link to='/competencies'> 
               <button>back</button>
