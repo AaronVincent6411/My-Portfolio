@@ -75,6 +75,8 @@ function Overview () {
 
   // el.current.style.fontSize = "32px";
 
+  const isMobile = window.innerWidth > 475;
+
   const [isPlaying, setIsPlaying] = useState(false);
   const [songName, setSongName] = useState('None');
   const audioRef = useRef(null);
@@ -138,9 +140,9 @@ function Overview () {
           <div className='text-2-2' ref={el2}></div>
           <div className='text-2-3' ref={el3}></div>
           <div className='text-2-4' ref={el4}></div>
-          <div className='gif'>
-            <img src={gif}/>
-          </div>
+          {isMobile ? ( 
+           <div className='gif'> 
+            <img src={gif}/> </div>) : null }
         </div>
         <div className='inner-rectangle-3'>
           <div className='text-3-1'>
