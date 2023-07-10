@@ -224,9 +224,7 @@ function Overview () {
               &nbsp;
               <img src="https://img.shields.io/badge/acer%20Aspire%203-83B81A?style=for-the-badge&logo=acer&logoColor=white" />
               &nbsp;
-              <img src="https://img.shields.io/badge/Intel%20Core_i5_8th-0071C5?style=for-the-badge&logo=intel&logoColor=white" />
-              &nbsp;
-              <img src="https://img.shields.io/badge/acer%20Aspire%203-83B81A?style=for-the-badge&logo=acer&logoColor=white" />
+              <img src="https://img.shields.io/badge/Intel%20Core_i5_8th-0071C5?style=for-the-badge&logo=intel&logoColor=white" />             
               &nbsp;
               <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white" />
               &nbsp;
@@ -266,8 +264,6 @@ function Overview () {
           </div>
           <div className='text-5-4'>
             <p>
-              <img src="https://img.shields.io/badge/Technical%20Lead%20Hack%20Club-EC3750?style=for-the-badge&logo=Hack%20Club&logoColor=white" />
-              &nbsp;
               <img src="https://img.shields.io/badge/Technical Co Lead Computer Society Of India-EC3750.svg?&style=for-the-badge" />
             </p>
           </div>
