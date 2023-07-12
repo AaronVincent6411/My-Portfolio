@@ -13,9 +13,41 @@ import { GiAchievement, GiSkills } from "react-icons/gi"
 
 function Navbar() {
 
+  const Mobile = window.innerWidth < 426;
 
 return(
   <div className="inner-rectangle">
+    {Mobile ? (
+      // Mobile View
+        <div className="menu-toogle">
+        <nav>
+          <ul>
+          <button>
+            <li>
+              <Link to="/">
+                <FontAwesomeIcon icon={faHome}/>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Overview
+              </Link>
+            </li>
+            <li>
+              <Link to="/about">
+                <FontAwesomeIcon icon={faInfoCircle}/>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; About
+              </Link>
+            </li>
+            <li>
+              <Link to="/projects"><AiFillProject />&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Projects</Link>
+            </li>
+            <li>
+              <Link to="/competencies"><GiSkills/><GiAchievement />&nbsp;&nbsp;Competencies</Link>
+            </li>
+            <li>
+              <Link to="/contact"><AiOutlineMail/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Contact</Link>
+            </li>
+            </button>
+          </ul>
+        </nav>
+       </div>
+      ) : (
+        // Laptop and Desktop View
     <nav>
       <ul>
         <li>
@@ -39,6 +71,7 @@ return(
         </li>
       </ul>
     </nav>
+    )}
   </div>
  );
 }

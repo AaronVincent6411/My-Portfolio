@@ -56,14 +56,30 @@
   }
 }
 
-/* @media (max-width: 425px) {
-  .menu-toggle {
+@media (max-width: 425px) {
+  /* .menu-toggle {
     display: block;
     color: white;
     cursor: pointer;
     font-size: 20px;
     margin: 10px;
+  } */
+  /* .inner-rectangle .menu-toggle {
+    position: absolute;
+    bottom: 10%;
+    left: 43%;
+    margin-bottom: 0.8rem;
   }
+
+  .inner-rectangle .menu-toggle button {
+    padding: 0.1rem 1.5rem;
+    border-radius: 1rem;
+    font-size: 13px;
+    background-color: #2d2d2d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  } */
 
   nav ul {
     display: none;
@@ -89,4 +105,30 @@
     font-family: 'src/assets/Fonts/JosefinSans-Regular.ttf';
     font-size: 16px;
   }
-} */
+
+  /* nav {
+    display: flex;
+    height: 50px;
+    padding: 0 20px;
+  }
+
+  nav ul {
+    display: flex;
+    position: absolute;
+    list-style: none;
+    flex-direction: column;
+    top: 13%;
+    padding: 0px;
+  }
+
+  nav li {
+    margin: 20px;
+    text-align: left;
+  }
+
+  nav a {
+    color: white;
+    font-family: 'src/assets/Fonts/JosefinSans-Regular.ttf';
+    font-size: 16px;
+  } */
+}
