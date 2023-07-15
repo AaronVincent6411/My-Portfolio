@@ -131,4 +131,49 @@
     font-family: 'src/assets/Fonts/JosefinSans-Regular.ttf';
     font-size: 16px;
   } */
+
+  /* .inner-rectangle {
+    position: relative;
+    background: var(--white);
+  }
+  
+  .menu-toggle li:first-child .dropdown {
+    flex-direction: initial;
+    min-width: 480px;
+  }
+  
+  .menu-toggle li:first-child ul:nth-child(1) {
+    border-right: var(--border);
+  }
+  
+  .menu-toggle li:nth-child(n + 2) ul:nth-child(1) {
+    border-bottom: var(--border);
+  }
+  
+  .menu-toggle .dropdown-link-title {
+    font-weight: 600;
+  }
+  
+  .menu-toggle .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: -0.6px;
+    padding: 0.3rem;
+    min-width: 60px;
+    margin: 0 0.6rem;
+  }
+  
+  .menu-toggle .nav-link:hover,
+  .dropdown-link:hover {
+    color: var(--primary-color);
+  }
+  
+  .nav-start,
+  .nav-end,
+  .menu-toggle,
+  .right-container,
+  .right-container .search {
+    display: flex;
+    align-items: center;
+  } */
 }
