@@ -40,7 +40,7 @@ function About() {
                    <div className='heading'>About</div>
                    <Header/>
                    <a href={ resume } download>
-                    <div className='img-rectangle'>
+                    <div className='abt-img-rectangle'>
                         <img src={profile}/>
                     </div>
                    </a>
