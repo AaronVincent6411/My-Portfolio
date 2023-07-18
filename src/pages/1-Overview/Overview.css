@@ -1122,8 +1122,8 @@
 
   .rectangle {
     background-color: #222429;
-    height: 90vh;
-    width: 90vw;
+    /* height: 90vh;
+    width: 90vw; */
     max-height: calc(100vh - 40px);
     max-width: calc(100vw - 40px);
     border-radius: 40px;
