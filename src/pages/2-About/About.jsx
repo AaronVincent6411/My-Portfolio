@@ -34,8 +34,8 @@ function About() {
 
     return(
         <div style={myStyle}>
-            <div className="container">
-                <div className="rectangle">
+            <div className="abt-container">
+                <div className="abt-rectangle">
                    <Navbar/>
                    <div className='heading'>About</div>
                    <Header/>

@@ -1,6 +1,6 @@
 @media (min-width: 1880px) {
 
-    .container {
+    .abt-container {
         position: fixed;
         top: 0;
         bottom: 0;
@@ -12,7 +12,7 @@
         margin: auto;
     }
     
-    .rectangle {
+    .abt-rectangle {
         background-color: #222429;
         height: 90vh;
         width: 90vw;
@@ -169,7 +169,7 @@
 }
 
 @media (min-width: 1400px) and (max-width: 1440px) {
-    .container {
+    .abt-container {
         position: fixed;
         top: 0;
         bottom: 0;
@@ -181,7 +181,7 @@
         margin: auto;
     }
     
-    .rectangle {
+    .abt-rectangle {
         background-color: #222429;
         height: 90vh;
         width: 90vw;
@@ -329,7 +329,7 @@
 }
 
 @media (max-width: 425px) {
-    .container {
+    .abt-container {
         top: 0;
         bottom: 0;
         left: 0;
@@ -341,7 +341,7 @@
         overflow: auto; 
     }
     
-    .rectangle {
+    .abt-rectangle {
         background-color: #222429;
         min-height: 120vh;
         min-width: 90vw;
