@@ -27,17 +27,6 @@
     list-style-type: none;
   }
 
-  /* .marquee__content-2 {
-    display: flex;
-    justify-content: space-around;
-    min-width: 100%;
-    gap: var(--gap);
-    animation: scroll 20s linear infinite;
-    margin-top: 0.5%;
-    opacity: 50%;
-    list-style-type: none;
-  } */
-  
   @keyframes scroll {
     from {
       transform: translateX(calc(-100% - var(--gap)));
@@ -57,7 +46,7 @@
       top: 2%;
       right: 18%;
       border-radius: 40px;
-      font-size: 10px;
+      font-size: 12px;
     }
     
     .marquee {
@@ -74,7 +63,7 @@
       min-width: 100%;
       gap: var(--gap);
       animation: scroll 20s linear infinite;
-      margin-top: 0.5%;
+      margin-top: 5%;
       opacity: 50%;
       list-style-type: none;
     }
