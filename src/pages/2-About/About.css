@@ -66,6 +66,7 @@
         top: 15%;
         right: 2.5%;
         border-radius: 40px;
+        color: white;
     }
 
     .h3-myself {
@@ -226,6 +227,7 @@
         top: 15%;
         right: 2.5%;
         border-radius: 40px;
+        color: white;
     }
 
     .h3-myself {
@@ -330,8 +332,8 @@
 
 @media (max-width: 425px) {
     .abt-container {
-        top: 0;
-        bottom: 0;
+        top: 0px;
+        bottom: 30px;
         left: 0;
         right: 0;
         display: flex;
@@ -365,9 +367,9 @@
 
     .abt-img-rectangle {
         background: linear-gradient(to right, #632636, #392A48);
-        height: 12.8%;
-        width: 32%;
-        top: 24%;
+        height: 15.8%;
+        width: 34%;
+        top: 20%;
         left: 9.1%;
         position: absolute;
         align-items: center;
@@ -375,9 +377,9 @@
     
     .abt-img-rectangle img{
         position: absolute;
-        width: 75%;
+        width: 85%;
         bottom: 0%;
-        left: 13%;
+        right: 10px;
     }
 
     .myself-rectangle {
@@ -385,10 +387,11 @@
         position: absolute;
         height: 58%;
         width: 84%;
-        top: 40%;
+        top: 38%;
         left: 8%;
         margin-right: 2.5%;
         border-radius: 30px;
+        color: white;
     }
 
     .h3-myself {
@@ -407,7 +410,7 @@
     .age-rectangle {
         background-color: #000000;
         position: absolute;
-        height: 6%;
+        height: 5%;
         width: 45%;
         top: 16.3%;
         left: 48%;
@@ -436,7 +439,7 @@
     .role-rectangle {
         background-color: #000000;
         position: absolute;
-        height: 6%;
+        height: 5%;
         width: 45%;
         top: 23.5%;
         left: 48%;
@@ -465,7 +468,7 @@
     .place-rectangle {
         background-color: #000000;
         position: absolute;
-        height: 6%;
+        height: 5%;
         width: 45%;
         top: 31%;
         left: 48%;
