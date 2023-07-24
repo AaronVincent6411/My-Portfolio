@@ -24,34 +24,3 @@
     border-radius: 70%;
     background-color: #000;
   }
-
-@media (max-width:425px) {
-  .eyes {
-    width: 20%;
-    height: 65px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    column-gap: 20px;
-    position: relative;
-    left: 15px;
-  }
-  
-  .eye {
-    width: 25px;
-    height: 25px;
-    border-radius: 100%;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .pupil {
-    width: 8px;
-    height: 12px;
-    border-radius: 70%;
-    background-color: #000;
-  }
-}
