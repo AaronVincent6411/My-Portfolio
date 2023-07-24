@@ -130,7 +130,14 @@ function Overview () {
   //   }
   // }  
 
+  const myStyle = {
+    background: 'linear-gradient(to right, #632636, #392A48)',
+    height: '100vh',
+    width: '100vw'
+  };
+
   return(
+    <div style={myStyle}>
     <div className="container">
       <div className="rectangle">
         <Navbar/>
@@ -182,7 +189,7 @@ function Overview () {
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" className='Pytorch'/>       
         </div>
         <div className='inner-rectangle-4'>
-          <Eyes/>
+         { isMobile ? ( <Eyes/>) : null }
           <div className='music'>
           <img
             src={musicIcon}
@@ -285,6 +292,7 @@ function Overview () {
           </div>
         </Link>
       </div>
+    </div>
     </div>
   );
 }
