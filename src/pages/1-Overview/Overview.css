@@ -1,5 +1,5 @@
 @media (min-width: 1880px){
-  .container {
+  .ovr-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@
     min-width: 100vw;
   }
   
-  .rectangle {
+  .ovr-rectangle {
     background-color: #222429;
     height: 90vh;
     width: 90vw;
@@ -150,7 +150,7 @@
     font-size: 18px;
   } */
 
-  .heading {
+  .ovr-heading {
     font-size: 32px;
     position: absolute;
     top: 10%;
@@ -551,7 +551,7 @@
 
 @media (min-width: 1400px) and (max-width: 1440px) {
   
-    .container {
+    .ovr-container {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -560,6 +560,17 @@
       background: linear-gradient(to right, #632636, #392A48);
       min-width: 100vw;
       overflow: auto;
+    }
+
+    .ovr-rectangle {
+      background-color: #222429;
+      height: 90vh;
+      width: 90vw;
+      max-height: calc(100vh - 40px);
+      max-width: calc(100vw - 40px);
+      border-radius: 40px;
+      position: relative;
+      color: white;
     }
   
     .inner-rectangle {
@@ -632,7 +643,7 @@
     
     .img-rectangle {
       background: linear-gradient(to right, #632636, #392A48);
-      height: 35%;
+      height: 25%;
       width: 15%;
       top: 27.5%;
       left: 20%;
@@ -651,9 +662,9 @@
     
     .img-rectangle img{
       position: absolute;
-      width: 62%;
+      width: 75%;
       bottom: 0%;
-      left: 18%;
+      left: 13%;
     }
     
     .line {
@@ -693,7 +704,7 @@
       font-size: 18px;
     } */
     
-    .heading {
+    .ovr-heading {
        font-size: 28px;
        position: absolute;
        top: 10%;
@@ -1111,19 +1122,19 @@
   }
 
 @media (max-width: 425px) {
-  .container {
+  .ovr-container {
     top: 0px;
-    bottom: 0px;
+    bottom: 20px;
     left: 0;
     right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
-    overflow: auto; 
+    overflow: auto;
   }
 
-  .rectangle {
+  .ovr-rectangle {
     background-color: #222429;
     min-height: 100vh;
     min-width: 90vw;
@@ -1134,14 +1145,15 @@
     color: white;
   }
 
-  /* .inner-rectangle {  Navbar
+  /*.inner-rectangle {  
+    //Navbar
     background-color: #141419;
     height: 100%;
     width: 15%;
     border-radius: 30px 0 0 30px;
     color: white;
-  } */
-  
+  }*/
+
   .inner-rectangle-2 {
     position: absolute;
     top: 20.8%;
@@ -1265,7 +1277,7 @@
     font-size: 18px;
   } */
   
-  .heading {
+  .ovr-heading {
      font-size: 24px;
      position: absolute;
      top: 10%;

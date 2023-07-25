@@ -138,10 +138,10 @@ function Overview () {
 
   return(
     <div style={myStyle}>
-    <div className="container">
-      <div className="rectangle">
+    <div className="ovr-container">
+      <div className="ovr-rectangle">
         <Navbar/>
-        <div className='heading'>Overview</div>
+        <div className='ovr-heading'>Overview</div>
         <div className='inner-rectangle-2'>
           <div className='text-2-1' ref={el1}></div>
           <div className='text-2-2' ref={el2}></div>
