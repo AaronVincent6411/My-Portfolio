@@ -7,8 +7,8 @@ function Header() {
     return(
         <div>
         <div className='inner-rectangle-8'>
-            <div class="marquee">
-                <ul class="marquee__content ">
+            <div className="marquee">
+                <ul className="marquee__content ">
                     <li>&nbsp;Projects&nbsp;</li>
                     <li>&nbsp;Projects&nbsp;</li>
                     <li>&nbsp;Projects&nbsp;</li>
@@ -17,7 +17,7 @@ function Header() {
                     <li>&nbsp;Projects&nbsp;</li>
                     <li>&nbsp;Projects&nbsp;</li>
                 </ul>
-                <ul class="marquee__content">
+                <ul className="marquee__content">
                     <li>&nbsp;Projects&nbsp;</li>
                     <li>&nbsp;Projects&nbsp;</li>
                     <li>&nbsp;Projects&nbsp;</li>

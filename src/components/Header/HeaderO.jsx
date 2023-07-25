@@ -11,24 +11,20 @@ function Header() {
         <div className='inner-rectangle-8'>
         {isMobile ? (
             //Mobile View
-            <div class="marquee">
-                <ul class="marquee__content ">
+            <div className="marquee">
+                <ul className="marquee__content ">
                     <li>&nbsp;My Portfolio&nbsp;</li>
-                    <li>&nbsp;My Portfolio&nbsp;</li>
-                    <li>&nbsp;My Portfolio&nbsp;</li>
-                    <li>&nbsp;My Portfolio&nbsp;</li>
+                    <li>&nbsp;My Portfolio&nbsp;</li>                    
                 </ul>
-                <ul class="marquee__content">
-                    <li>&nbsp;My Portfolio&nbsp;</li>
-                    <li>&nbsp;My Portfolio&nbsp;</li>
+                <ul className="marquee__content">
                     <li>&nbsp;My Portfolio&nbsp;</li>
                     <li>&nbsp;My Portfolio&nbsp;</li>
                 </ul>
                 </div>
                 ) : (
                     // Laptop and Desktop View
-                    <div class="marquee">
-                <ul class="marquee__content ">
+                    <div className="marquee">
+                <ul className="marquee__content ">
                     <li>&nbsp;My Portfolio&nbsp;</li>
                     <li>&nbsp;My Portfolio&nbsp;</li>
                     <li>&nbsp;My Portfolio&nbsp;</li>
@@ -37,7 +33,7 @@ function Header() {
                     <li>&nbsp;My Portfolio&nbsp;</li>
                     <li>&nbsp;My Portfolio&nbsp;</li>
                 </ul>
-                <ul class="marquee__content">
+                <ul className="marquee__content">
                     <li>&nbsp;My Portfolio&nbsp;</li>
                     <li>&nbsp;My Portfolio&nbsp;</li>
                     <li>&nbsp;My Portfolio&nbsp;</li>
