@@ -57,123 +57,69 @@
 }
 
 @media (max-width: 425px) {
-  /* .menu-toggle {
-    display: block;
+  .sidepanel {
+    height: 250px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 27px;
+    left: 18px;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+  }
+  
+  /* Add "open" class to show the sidepanel */
+  .sidepanel.open {
+    min-width: 90vw;
+    min-height: 110vh;
+  }
+  
+  /* The sidepanel links */
+  .sidepanel a {
+    padding: 10px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
     color: white;
+    display: block;
+    transition: 0.3s;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 36px;
     cursor: pointer;
+    background-color: black;
+  }
+  
+  .openbtn {
     font-size: 20px;
-    margin: 10px;
-  } */
-  /* .inner-rectangle .menu-toggle {
-    position: absolute;
-    bottom: 10%;
-    left: 43%;
-    margin-bottom: 0.8rem;
-  }
-
-  .inner-rectangle .menu-toggle button {
-    padding: 0.1rem 1.5rem;
-    border-radius: 1rem;
-    font-size: 13px;
-    background-color: #2d2d2d;
-    color: #fff;
-    border: none;
     cursor: pointer;
-  } */
-
-  nav ul {
-    display: none;
-    position: absolute;
-    list-style: none;
-    background-color: #333;
-    width: 100%;
-    top: 100%;
-    left: 0;
-  }
-
-  nav.active ul {
-    display: block;
-  }
-
-  nav li {
-    margin: 20px;
-    text-align: left;
-  }
-
-  nav a {
     color: white;
-    font-family: 'src/assets/Fonts/JosefinSans-Regular.ttf';
-    font-size: 16px;
-  }
-
-  /* nav {
-    display: flex;
-    height: 50px;
-    padding: 0 20px;
-  }
-
-  nav ul {
-    display: flex;
-    position: absolute;
-    list-style: none;
-    flex-direction: column;
-    top: 13%;
-    padding: 0px;
-  }
-
-  nav li {
-    margin: 20px;
-    text-align: left;
-  }
-
-  nav a {
-    color: white;
-    font-family: 'src/assets/Fonts/JosefinSans-Regular.ttf';
-    font-size: 16px;
-  } */
-
-  /* .inner-rectangle {
+    padding: 5px 5px;
+    border: none;
+    background-color: #222429;
+    top: 12px;
+    left: 15px;
     position: relative;
-    background: var(--white);
   }
   
-  .menu-toggle li:first-child .dropdown {
-    flex-direction: initial;
-    min-width: 480px;
+  .openbtn:hover {
+    background-color: #444;
   }
-  
-  .menu-toggle li:first-child ul:nth-child(1) {
-    border-right: var(--border);
-  }
-  
-  .menu-toggle li:nth-child(n + 2) ul:nth-child(1) {
-    border-bottom: var(--border);
-  }
-  
-  .menu-toggle .dropdown-link-title {
-    font-weight: 600;
-  }
-  
-  .menu-toggle .nav-link {
-    font-size: 1rem;
-    font-weight: 500;
-    letter-spacing: -0.6px;
-    padding: 0.3rem;
-    min-width: 60px;
-    margin: 0 0.6rem;
-  }
-  
-  .menu-toggle .nav-link:hover,
-  .dropdown-link:hover {
-    color: var(--primary-color);
-  }
-  
-  .nav-start,
-  .nav-end,
-  .menu-toggle,
-  .right-container,
-  .right-container .search {
-    display: flex;
-    align-items: center;
-  } */
 }
