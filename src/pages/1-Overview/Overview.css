@@ -1250,33 +1250,6 @@
     opacity: 5%;
   }
   
-  /* nav {
-    display: flex;
-    height: 50px;
-    padding: 0 20px;
-  }
-  
-  nav ul {
-    display: flex;
-    position: absolute;
-    list-style:none;
-    flex-direction: column;
-    top: 13%;
-    padding: 0px;
-  }
-  
-  nav li {
-    margin: 20px;
-    text-align: left;
-  }
-  
-  nav a {
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-  } */
-  
   .ovr-heading {
      font-size: 24px;
      position: absolute;
@@ -1297,11 +1270,6 @@
     top: 8%;
     color: white;
   }
-  
-  /* .typed-cursor {
-    font-size: 24px;
-    line-height: 1;
-  } */
   
   .text-2-2 {
     font-size: 10px;
@@ -1416,112 +1384,6 @@
   
   }
   
-  /*
-  .red-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: red;
-    display: flex;
-    position: relative;
-    margin-left: 8%;
-    margin-top: 8%;
-  }
-  
-  .text-3-2 {
-    position: relative;
-    text-align: left;
-    font-size: medium;
-    font-weight: 600;
-    left: 13%;
-    top:-8%;
-    opacity: 80%;
-  }
-  
-  .blue-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: blue;
-    display: flex;
-    position: relative;
-    margin-left: 60%;
-    margin-top: -6%;
-  }
-  
-  .text-3-3 {
-    position: relative;
-    text-align: left;
-    font-size: medium;
-    font-weight: 600;
-    left: 65%;
-    top:-8.5%;
-    opacity: 80%;
-  }
-  
-  .grey-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: grey;
-    display: flex;
-    position: relative;
-    margin-left: 8%;
-    margin-top: 3%;
-  }
-  
-  .text-3-4 {
-    position: relative;
-    text-align: left;
-    font-size: medium;
-    font-weight: 600;
-    left: 13%;
-    top:-8%;
-    opacity: 80%;
-  }
-  
-  .yellow-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: yellow;
-    display: flex;
-    position: relative;
-    margin-left: 60%;
-    margin-top: -6%;
-  }
-  
-  .text-3-5 {
-    position: relative;
-    text-align: left;
-    font-size: medium;
-    font-weight: 600;
-    left: 65%;
-    top:-8.5%;
-    opacity: 80%;
-  }
-  
-  .darkishblue-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: darkblue;
-    display: flex;
-    position: relative;
-    margin-left: 8%;
-    margin-top: 3%;
-  }
-  
-  .text-3-6 {
-    position: relative;
-    text-align: left;
-    font-size: medium;
-    font-weight: 600;
-    left: 13%;
-    top:-8%;
-    opacity: 80%;
-  } */
-  
   .text-4 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 600;
@@ -1606,14 +1468,6 @@
     font-weight: 600;
     color: white;
   }
-  
-  /* .text-8 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
-  } */
   
   .music img {
     position: relative;

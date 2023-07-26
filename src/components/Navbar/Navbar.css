@@ -72,13 +72,11 @@
     border-top-right-radius: 40px;
   }
   
-  /* Add "open" class to show the sidepanel */
   .sidepanel.open {
     min-width: 90vw;
     min-height: 110vh;
   }
   
-  /* The sidepanel links */
   .sidepanel a {
     padding: 10px 8px 8px 8px;
     text-decoration: none;
@@ -92,12 +90,10 @@
     list-style-type: none;
   }
   
-  /* When you mouse over the navigation links, change their color */
   .sidepanel a:hover {
     color: #f1f1f1;
   }
   
-  /* Position and style the close button (top right corner) */
   .sidepanel .closebtn {
     position: absolute;
     top: 0;
