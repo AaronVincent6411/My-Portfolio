@@ -60,12 +60,11 @@
   .sidepanel {
     height: 250px;
     width: 0;
-    position: fixed;
+    position: relative;
+    bottom: 36px;
     z-index: 1;
-    top: 27px;
-    left: 18px;
     background-color: black;
-    overflow-x: hidden;
+    overflow-x: auto;
     padding-top: 60px;
     transition: 0.5s;
     border-top-left-radius: 40px;
@@ -74,13 +73,12 @@
   
   .sidepanel.open {
     min-width: 90vw;
-    min-height: 110vh;
   }
   
   .sidepanel a {
     padding: 10px 8px 8px 8px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 18px;
     color: white;
     display: block;
     transition: 0.3s;
