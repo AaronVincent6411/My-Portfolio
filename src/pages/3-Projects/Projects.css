@@ -1,6 +1,6 @@
 @media (min-width: 1880px) {
   
-  .container {
+  .projects-container {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -13,7 +13,7 @@
   }
   
   
-.rectangle {
+  .projects-rectangle {
     background-color: #222429;
     height: 90vh;
     width: 90vw;
@@ -24,7 +24,7 @@
     color: white;
   }
   
-.heading {
+  .projects-heading {
     font-size: 32px;
     position: absolute;
     top: 10%;
@@ -107,7 +107,7 @@
 
 @media (min-width: 1400px) and (max-width: 1440px) {
    
-  .container {
+  .projects-container {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -121,7 +121,7 @@
   }
   
   
-.rectangle {
+  .projects-rectangle {
     background-color: #222429;
     height: 90vh;
     width: 90vw;
@@ -132,7 +132,7 @@
     color: white;
   }
   
-.heading {
+  .projects-heading {
     font-size: 32px;
     position: absolute;
     top: 10%;
@@ -215,7 +215,7 @@
 
 @media (max-width: 425px) {
    
-  .container {
+  .projects-container {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -229,7 +229,7 @@
   }
   
   
-.rectangle {
+  .projects-rectangle {
     background-color: #222429;
     height: 90vh;
     width: 90vw;
@@ -240,7 +240,7 @@
     color: white;
   }
   
-.heading {
+  .projects-heading {
     font-size: 24px;
     position: absolute;
     top: 10%;
@@ -254,8 +254,8 @@
   position: relative;
   justify-content: center;
   align-items: center;
-  bottom: 77%;
-  left: 17%;
+  bottom: 27%;
+  left: 10%;
   margin-right: 20%;
   }
 
@@ -293,7 +293,7 @@
   }
 
   .projects-text-1 {  /*completed projects */
-    font-size: 8px;
+    font-size: 5px;
     position: absolute;
     top: 27%;
     left: 12%;
@@ -302,7 +302,7 @@
   }
   
   .projects-text-2 {  /*Currently Working */
-    font-size: 8px;
+    font-size: 5px;
     position: absolute;
     top: 27%;
     left: 12%;
@@ -311,7 +311,7 @@
   }
 
   .projects-text-3 {  /*Total Projects */
-    font-size: 8px;
+    font-size: 5px;
     position: absolute;
     top: 27%;
     left: 18%;

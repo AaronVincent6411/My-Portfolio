@@ -17,11 +17,11 @@ function Projects() {
 
   return (
     <div style={myStyle}>
-      <div className="container">
-        <div className="rectangle">
+      <div className="projects-container">
+        <div className="projects-rectangle">
           <Navbar />
           <Header />
-          <div className="heading">Projects</div>
+          <div className="projects-heading">Projects</div>
           <div className="slider-rectangle">
             <Slider/>
           </div>
