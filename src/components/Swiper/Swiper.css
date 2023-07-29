@@ -140,7 +140,7 @@
     height: 2px;
     width: 380px;
     top: 32%;
-    left: 10px;
+    left: 0px;
     background-color: #222429;
   }
 
@@ -167,7 +167,7 @@
     height: 40px;
     align-self: center;
     position: absolute;
-    bottom: 8%;
+    bottom: 10%;
     left: 45%;
   }  
 
