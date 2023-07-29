@@ -15,6 +15,8 @@ function Projects() {
     marginLeft: "55%",
   }
 
+  const isMobile = window.innerWidth < 500;
+
   return (
     <div style={myStyle}>
       <div className="projects-container">
@@ -26,7 +28,7 @@ function Projects() {
             <Slider/>
           </div>
           <div className='projects-rectangle-1'>
-        <div className='projects-text-1'>
+          <div className='projects-text-1'>
             Completed Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4
           </div>
         </div>
