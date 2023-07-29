@@ -167,23 +167,12 @@
     height: 40px;
     align-self: center;
     position: absolute;
-    bottom: 2%;
+    bottom: 8%;
     left: 45%;
-  }
+  }  
 
-  /* .swiper-button-next,
-  .swiper-button-prev {
-    width: 10px;
-    height: 10px;
-    font-size: 10px;
-  }
-
-  .swiper-button-next {
-    right: 5px;
-  }
-
-  .swiper-button-prev {
-    left: 5px;
-  } */
-
+  .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px);
+    background-color: white;
+}
 }

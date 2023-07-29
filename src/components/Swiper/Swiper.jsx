@@ -97,11 +97,11 @@ function Slider() {
       <Swiper
         spaceBetween={10}
         slidesPerView={1}
-        navigation={{   
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-      }}
         autoplay={{ delay: 3000 }}
+        pagination= {{                       //pagination(dots)
+          el: '.swiper-pagination',
+          clickable: true
+      }}
       >
         {slides.map((slide) => (
           <SwiperSlide key={slide.id}>
@@ -116,8 +116,7 @@ function Slider() {
             </div>
           </SwiperSlide>
         ))}
-        <div className="swiper-button-next"></div>
-        <div className="swiper-button-prev"></div>
+        <div className="swiper-pagination"></div>
       </Swiper>
     ) : (
       // Laptop and Desktop View
