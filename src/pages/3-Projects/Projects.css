@@ -240,7 +240,7 @@
     color: white;
   }
   
-  .projects-heading {
+.projects-heading {
     font-size: 24px;
     position: absolute;
     top: 10%;
@@ -262,40 +262,40 @@
 .projects-rectangle-1 {
   background-color: #000000;
     position: absolute;
-    height: 4%;
+    height: 6%;
     width: 27%;
     top: 16%;
     left: 8%;
-    border-radius: 16px;
+    border-radius: 10px;
     color: white;
 }
   
 .projects-rectangle-2 {
     background-color: #000000;
     position: absolute;
-    height: 4%;
+    height: 6%;
     width: 27%;
     top: 16%;
     left: 38%;
-    border-radius: 16px;
+    border-radius: 10px;
     color: white;
   }
 
   .projects-rectangle-3 {
     background-color: #000000;
     position: absolute;
-    height: 4%;
+    height: 6%;
     width: 27%;
     top: 16%;
     left: 68%;
-    border-radius: 16px;
+    border-radius: 10px;
     color: white;
   }
 
   .projects-text-1 {  /*completed projects */
     font-size: 5px;
     position: absolute;
-    top: 27%;
+    top: 15%;
     left: 8%;
     font-family: 'src/assets/DM_Sans/DMSans-Medium.ttf';
     font-weight: 600;
@@ -304,7 +304,7 @@
   .projects-text-2 {  /*Currently Working */
     font-size: 5px;
     position: absolute;
-    top: 27%;
+    top: 15%;
     left: 12%;
     font-family: 'src/assets/DM_Sans/DMSans-Medium.ttf';
     font-weight: 600;
@@ -313,8 +313,32 @@
   .projects-text-3 {  /*Total Projects */
     font-size: 5px;
     position: absolute;
-    top: 27%;
+    top: 15%;
     left: 18%;
+    font-family: 'src/assets/DM_Sans/DMSans-Medium.ttf';
+    font-weight: 600;
+  }
+
+  .projects-text-1-input {
+    font-size: 15px;
+    position: absolute;
+    left: 45%;
+    font-family: 'src/assets/DM_Sans/DMSans-Medium.ttf';
+    font-weight: 600;
+  }
+
+  .projects-text-2-input {
+    font-size: 15px;
+    position: absolute;
+    left: 45%;
+    font-family: 'src/assets/DM_Sans/DMSans-Medium.ttf';
+    font-weight: 600;
+  }
+
+  .projects-text-3-input {
+    font-size: 15px;
+    position: absolute;
+    left: 45%;
     font-family: 'src/assets/DM_Sans/DMSans-Medium.ttf';
     font-weight: 600;
   }
