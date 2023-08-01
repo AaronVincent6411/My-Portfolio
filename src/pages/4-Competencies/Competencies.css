@@ -359,17 +359,17 @@
     justify-content: center;
     background-color: black;
     position: absolute;
-    top: 60%;
-    right: 5%;
-    border-radius: 40px;
-    height: 350px;
-    width: 45%;
+    top: 59%;
+    left: 8%;
+    border-radius: 20px;
+    height: 170px;
+    width: 270px;
     text-align: left;
     color: white;
 }
 
 .acv-rectangle-1 h3 {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
     position: absolute;
     left: 5%;
@@ -378,19 +378,19 @@
   }
   
 .acv-rectangle-1 p1 {
-    font-size: 12px;
+    font-size: 8px;
     font-weight: 600;
     position: relative;
     left: 6%;
-    top: 8%;
-    line-height: 2.5rem;
+    top: 12%;
+    line-height: 1rem;
     margin-right: 8%;
   }
   
 .acv-rectangle-1 .view-more {
     position: absolute;
-    bottom: 0.5%;
-    left: 30%;
+    top: 81.5%;
+    left: 57%;
     transform: translateX(-50%);
     margin-bottom: 0.8rem;
   }
@@ -398,16 +398,16 @@
 .acv-rectangle-1 .view-more button {
     padding: 0.1rem 1.5rem;
     border-radius: 1rem;
-    font-size: 13px;
+    font-size: 8px;
     background-color: #2d2d2d;
     color: #fff;
     border: none;
     cursor: pointer;
+    animation: cchange 2000ms infinite;
   }
   
 .acv-rectangle-1 .view-more button:hover {
-    background-color: #4d4d4d;
-    animation: cchange 2000ms infinite;
+    background-color: black;
   }
 
 .cer-rectangle-1 {
@@ -417,17 +417,17 @@
     justify-content: center;
     background-color: black;
     position: absolute;
-    top: 165%;
-    right: 5%;
-    border-radius: 40px;
-    height: 255px;
-    width: 45%;
+    top: 82.5%;
+    left: 8%;
+    border-radius: 20px;
+    height: 110px;
+    width: 270px;
     text-align: left;
     color: white;
 }
 
 .cer-rectangle-1 h3 {
-  font-size: 24px;
+  font-size: 18px;
   font-family: 'src/assets/Fonts/Belanosima-Regular.ttf';
   position: absolute;
   top: 1%;
@@ -435,35 +435,35 @@
 }
 
 .cer-rectangle-1 p1 {
-  font-size: 12px;
+  font-size: 8px;
   font-weight: 600;
   position: relative;
   left: 6%;
-  top: 8%;
-  line-height: 3.5rem;
+  top: 17%;
+  line-height: 1.1rem;
   margin-right: 10%;
 }
 
 .cer-rectangle-1 .view-more {
   position: absolute;
-  bottom: 10%;
-  left: 43%;
+  top: 70.5%;
+  left: 46%;
   margin-bottom: 0.8rem;
 }
 
 .cer-rectangle-1 .view-more button {
   padding: 0.1rem 1.5rem;
   border-radius: 1rem;
-  font-size: 13px;
+  font-size: 8px;
   background-color: #2d2d2d;
   color: #fff;
   border: none;
   cursor: pointer;
+  animation: cchange 2000ms infinite;
 }
 
 .cer-rectangle-1 .view-more button:hover {
-  background-color: #4d4d4d;
-  animation: cchange 2000ms infinite;
+  background-color: black;
 }
 
 @keyframes cchange {
