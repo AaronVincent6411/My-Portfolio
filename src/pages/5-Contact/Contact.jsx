@@ -9,6 +9,8 @@ import {SiLinktree} from "react-icons/si";
 
 import { BiCopyright } from 'react-icons/bi'
 
+const isMobile = window.innerWidth <= 425;
+
 function Contact() {
     const myStyle = {
         background: 'linear-gradient(to right, #632636, #392A48)',
@@ -23,9 +25,9 @@ function Contact() {
                    <Navbar/>
                    <Header/>
                    <div className='heading'>Contact</div>
-                   <div className="contact-rectangle-1">
-                    <img src="https://live.staticflickr.com/65535/52895350520_c0a63c30fd_c.jpg"/>
-                   </div>
+                    <div className="contact-rectangle-1">
+                     <img src="https://live.staticflickr.com/65535/52895350520_c0a63c30fd_c.jpg"/>
+                    </div>
                    <div className="contact-rectangle">
                     <h3>Connect me</h3>
                     <ContactForm/>
@@ -36,6 +38,34 @@ function Contact() {
                     </div>
                    </div>
                    <div className="contact-rectangle-2">
+                   {isMobile ? (
+                    //Mobile View
+                    <nav>
+                        <ul>
+                            <li>
+                            <Link to="https://github.com/aaronvincent6411" style={{ fontSize: "30px" }} target="_blank">
+                                <AiFillGithub/>
+                            </Link>
+                            </li>
+                        <li>
+                            <Link  to="https://www.linkedin.com/in/aaronvincent6411/" style={{ fontSize: "30px" }} target="_blank">
+                                <AiFillLinkedin/>
+                            </Link>
+                            </li>
+                            <li>
+                            <Link  to="https://www.instagram.com/aaronvincent5411/" style={{ fontSize: "30px" }} target="_blank">
+                                <AiFillInstagram/>
+                            </Link>
+                            </li>
+                            <li>
+                            <Link  to="https://linktr.ee/aaronvincent11" style={{ fontSize: "30px" }} target="_blank">
+                                <SiLinktree/>
+                            </Link>
+                            </li>
+                        </ul>
+                    </nav>
+                    ) : (
+                    //Laptop View
                    <nav>
                     <ul>
                         <li>
@@ -60,6 +90,7 @@ function Contact() {
                         </li>
                     </ul>
                    </nav>
+                )}
                    </div>
                 </div>
             </div>
