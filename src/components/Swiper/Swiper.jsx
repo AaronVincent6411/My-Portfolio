@@ -7,6 +7,8 @@ import { AiFillGithub } from 'react-icons/ai';
 
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 
+const isMobile = window.innerWidth < 500;
+
 function Slider() {
   const slides = [
     {
@@ -89,11 +91,17 @@ function Slider() {
   ];
 
   return (
+    <div>
+    {isMobile ? (
+      //Mobile View
       <Swiper
         spaceBetween={10}
-        slidesPerView={3}
-        navigation
+        slidesPerView={1}
         autoplay={{ delay: 3000 }}
+        pagination= {{                       //pagination(dots)
+          el: '.swiper-pagination',
+          clickable: true
+      }}
       >
         {slides.map((slide) => (
           <SwiperSlide key={slide.id}>
@@ -108,7 +116,33 @@ function Slider() {
             </div>
           </SwiperSlide>
         ))}
+        <div className="swiper-pagination"></div>
       </Swiper>
+    ) : (
+      // Laptop and Desktop View
+      <Swiper
+      spaceBetween={10}
+      slidesPerView={3}
+      navigation
+      autoplay={{ delay: 3000 }}
+    >
+      {slides.map((slide) => (
+        <SwiperSlide key={slide.id}>
+          <div className="project-card">
+            <img src={slide.image} alt={slide.title} className="project-img" />
+            <div className='line-2'></div>
+            <h3 className="project-title">{slide.title}</h3>
+            <p className="project-description">{slide.description}</p>
+            <a href={slide.github} target="_blank" rel="noopener noreferrer">
+            <AiFillGithub className='github-icon' />
+            </a>
+          </div>
+        </SwiperSlide>
+      ))}
+    </Swiper>
+    )
+    }
+    </div>
   );
 }
 

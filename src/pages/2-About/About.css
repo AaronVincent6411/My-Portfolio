@@ -1,6 +1,6 @@
 @media (min-width: 1880px) {
 
-    .container {
+    .abt-container {
         position: fixed;
         top: 0;
         bottom: 0;
@@ -12,7 +12,7 @@
         margin: auto;
     }
     
-    .rectangle {
+    .abt-rectangle {
         background-color: #222429;
         height: 90vh;
         width: 90vw;
@@ -35,7 +35,7 @@
         color: white;
     }
 
-    .img-rectangle {
+    .abt-img-rectangle {
         background: linear-gradient(to right, #632636, #392A48);
         height: 25%;
         width: 15%;
@@ -44,7 +44,7 @@
         position: absolute;
     }
 
-    .img-rectangle img{
+    .abt-img-rectangle img{
         position: absolute;
         width: 62%;
         bottom: 0%;
@@ -66,6 +66,7 @@
         top: 15%;
         right: 2.5%;
         border-radius: 40px;
+        color: white;
     }
 
     .h3-myself {
@@ -169,7 +170,7 @@
 }
 
 @media (min-width: 1400px) and (max-width: 1440px) {
-    .container {
+    .abt-container {
         position: fixed;
         top: 0;
         bottom: 0;
@@ -181,7 +182,7 @@
         margin: auto;
     }
     
-    .rectangle {
+    .abt-rectangle {
         background-color: #222429;
         height: 90vh;
         width: 90vw;
@@ -202,7 +203,7 @@
         z-index: 1;   
     }
 
-    .img-rectangle {
+    .abt-img-rectangle {
         background: linear-gradient(to right, #632636, #392A48);
         height: 25%;
         width: 15%;
@@ -211,7 +212,7 @@
         position: absolute;
       }
     
-    .img-rectangle img{
+    .abt-img-rectangle img{
         position: absolute;
         width: 75%;
         bottom: 0%;
@@ -226,6 +227,7 @@
         top: 15%;
         right: 2.5%;
         border-radius: 40px;
+        color: white;
     }
 
     .h3-myself {
@@ -325,5 +327,170 @@
         font-size: 22px;
         text-align: right;
         top: 15%;
+    }
+}
+
+@media (max-width: 425px) {
+    .abt-container {
+        top: 0px;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        overflow: auto; 
+    }
+    
+    .abt-rectangle {
+        background-color: #222429;
+        min-height: 100vh;
+        min-width: 90vw;
+        border-radius: 40px;
+        position: relative;
+        top: 5%;
+        bottom: 5%;
+    }   
+    
+    
+    .heading {
+        font-size: 24px;
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+
+    .abt-img-rectangle {
+        background: linear-gradient(to right, #632636, #392A48);
+        height: 15.8%;
+        width: 34%;
+        top: 20%;
+        left: 9.1%;
+        position: absolute;
+        align-items: center;
+      }
+    
+    .abt-img-rectangle img{
+        position: absolute;
+        width: 78%;
+        bottom: 0%;
+        right: 12px;
+    }
+
+    .myself-rectangle {
+        background-color: #000000;
+        position: absolute;
+        height: 58%;
+        width: 84%;
+        top: 38%;
+        left: 8%;
+        margin-right: 2.5%;
+        border-radius: 30px;
+        color: white;
+    }
+
+    .h3-myself {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        word-spacing: 5px;
+        position: relative;
+        left: 5.5%;
+        top: 15px;
+        text-align: left;
+        font-size: 10px;
+        line-height: 2.5em;
+        margin-right: 7%;
+    }
+    
+    .age-rectangle {
+        background-color: #000000;
+        position: absolute;
+        height: 6%;
+        width: 45%;
+        top: 16.3%;
+        left: 48%;
+        border-radius: 30px;
+        color: white;
+        font-family: 'src/assets/Fonts/Belanosima-Regular.ttf';
+    }
+
+    .age-h3 {
+        font-weight: 600;
+        font-size: 13px;
+        position: relative;
+        left: 10%;
+        top: 15%;
+    }
+
+    .age-t1 {
+        position: relative;
+        right: 10%;
+        font-weight: 600;
+        font-size: 18px;
+        text-align: right;
+        top: 0px;
+    }
+
+    .role-rectangle {
+        background-color: #000000;
+        position: absolute;
+        height: 6%;
+        width: 45%;
+        top: 23.2%;
+        left: 48%;
+        border-radius: 30px;
+        color: white;
+        font-family: 'src/assets/Fonts/Belanosima-Regular.ttf';
+    }
+
+    .role-h3 {
+        font-weight: 600;
+        font-size: 13px;
+        position: relative;
+        left: 10%;
+        top: 15%;
+    }
+
+    .role-t1 {
+        position: relative;
+        right: 10%;
+        font-weight: 600;
+        font-size: 15px;
+        text-align: right;
+        top: 3%;
+    }
+
+    .place-rectangle {
+        background-color: #000000;
+        position: absolute;
+        height: 6%;
+        width: 45%;
+        top: 30%;
+        left: 48%;
+        border-radius: 30px;
+        color: white;
+        font-family: 'src/assets/Fonts/Belanosima-Regular.ttf';
+    }
+
+    .place-h3 {
+        font-weight: 600;
+        font-size: 13px;
+        position: relative;
+        left: 10%;
+        top: 15%;
+    }
+
+    .place-t1 {
+        position: relative;
+        right: 10%;
+        font-weight: 600;
+        font-size: 15px;
+        text-align: right;
+        top: 3%;
     }
 }

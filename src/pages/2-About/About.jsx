@@ -13,7 +13,7 @@ function About() {
 
     useEffect(() => {
         const typed1 = new Typed(myself.current, {
-          strings: ["I am Aaron P Laju , Third year Computer Science (AI) student from Adi Shankara Institute Of Engineering and Technology, Kalady. I am currently Technical Lead of Hackclub and Technical Co-Lead of Computer Society of India in my college. I am also a part of technical team of GDSC in my college. My basic programming languages are C++ and Python. My interested fields are Machine Learning and Cyber security. I am working on my personal project Litter Detection and team project SmartC(LMS). I have also done many projects at my high school and higher secondary level. I have also participated in different code debugging and competitive coding competitions. My current codechef rating is 1114."],
+          strings: ["I am Aaron P Laju , Third year Computer Science (AI) student from Adi Shankara Institute Of Engineering and Technology, Kalady. I am currently Technical Co-Lead of Computer Society of India and the former Technical Lead of Hackclub in my college. I was also a part of technical team of GDSC in my college. My basic programming languages are C++ and Python. My interested fields are Machine Learning and Cyber security. I am working on my personal project Litter Detection and team project SmartC(LMS). I have also done many projects at my high school and higher secondary level. I have also participated in different code debugging and competitive coding competitions. My current codechef rating is 1114."],
           startDelay: 200,
           typeSpeed: 20,
           backSpeed: 100,
@@ -34,13 +34,13 @@ function About() {
 
     return(
         <div style={myStyle}>
-            <div className="container">
-                <div className="rectangle">
+            <div className="abt-container">
+                <div className="abt-rectangle">
                    <Navbar/>
                    <div className='heading'>About</div>
                    <Header/>
                    <a href={ resume } download>
-                    <div className='img-rectangle'>
+                    <div className='abt-img-rectangle'>
                         <img src={profile}/>
                     </div>
                    </a>

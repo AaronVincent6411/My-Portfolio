@@ -75,6 +75,8 @@ function Overview () {
 
   // el.current.style.fontSize = "32px";
 
+  const isMobile = window.innerWidth > 475;
+
   const [isPlaying, setIsPlaying] = useState(false);
   const [songName, setSongName] = useState('None');
   const audioRef = useRef(null);
@@ -128,19 +130,26 @@ function Overview () {
   //   }
   // }  
 
+  const myStyle = {
+    background: 'linear-gradient(to right, #632636, #392A48)',
+    height: '100vh',
+    width: '100vw'
+  };
+
   return(
-    <div className="container">
-      <div className="rectangle">
+    <div style={myStyle}>
+    <div className="ovr-container">
+      <div className="ovr-rectangle">
         <Navbar/>
-        <div className='heading'>Overview</div>
+        <div className='ovr-heading'>Overview</div>
         <div className='inner-rectangle-2'>
           <div className='text-2-1' ref={el1}></div>
           <div className='text-2-2' ref={el2}></div>
           <div className='text-2-3' ref={el3}></div>
           <div className='text-2-4' ref={el4}></div>
-          <div className='gif'>
-            <img src={gif}/>
-          </div>
+          {isMobile ? ( 
+           <div className='gif'> 
+            <img src={gif}/> </div>) : null }
         </div>
         <div className='inner-rectangle-3'>
           <div className='text-3-1'>
@@ -180,7 +189,7 @@ function Overview () {
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" className='Pytorch'/>       
         </div>
         <div className='inner-rectangle-4'>
-          <Eyes/>
+         { isMobile ? ( <Eyes/>) : null }
           <div className='music'>
           <img
             src={musicIcon}
@@ -222,9 +231,7 @@ function Overview () {
               &nbsp;
               <img src="https://img.shields.io/badge/acer%20Aspire%203-83B81A?style=for-the-badge&logo=acer&logoColor=white" />
               &nbsp;
-              <img src="https://img.shields.io/badge/Intel%20Core_i5_8th-0071C5?style=for-the-badge&logo=intel&logoColor=white" />
-              &nbsp;
-              <img src="https://img.shields.io/badge/acer%20Aspire%203-83B81A?style=for-the-badge&logo=acer&logoColor=white" />
+              <img src="https://img.shields.io/badge/Intel%20Core_i5_8th-0071C5?style=for-the-badge&logo=intel&logoColor=white" />             
               &nbsp;
               <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white" />
               &nbsp;
@@ -264,8 +271,6 @@ function Overview () {
           </div>
           <div className='text-5-4'>
             <p>
-              <img src="https://img.shields.io/badge/Technical%20Lead%20Hack%20Club-EC3750?style=for-the-badge&logo=Hack%20Club&logoColor=white" />
-              &nbsp;
               <img src="https://img.shields.io/badge/Technical Co Lead Computer Society Of India-EC3750.svg?&style=for-the-badge" />
             </p>
           </div>
@@ -287,6 +292,7 @@ function Overview () {
           </div>
         </Link>
       </div>
+    </div>
     </div>
   );
 }

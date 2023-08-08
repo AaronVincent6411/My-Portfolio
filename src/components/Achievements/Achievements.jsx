@@ -17,7 +17,7 @@ function Achievements() {
                 <div className="rectangle">
                     <Header/>
                     <Navbar/>
-                    <div className="heading">Achievements</div>
+                    <div className="acv-heading">Achievements</div>
                     <div className="acv-back-button">
                         <Link to='/competencies'> 
                             <button>back</button>

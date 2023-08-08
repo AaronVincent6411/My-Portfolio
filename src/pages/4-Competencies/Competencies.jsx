@@ -15,11 +15,11 @@ function Competencies() {
 
     return(
         <div style={myStyle}>
-            <div className="container">
-                <div className="rectangle">
+            <div className="comp-container">
+                <div className="comp-rectangle">
                    <Navbar/>
                    <Header/>
-                   <div className='heading'>Competencies</div>
+                   <div className='comp-heading'>Competencies</div>
                    <div className="skills">
                     <Skills/>
                    </div>

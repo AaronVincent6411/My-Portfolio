@@ -55,3 +55,67 @@
     font-size: 16px;
   }
 }
+
+@media (max-width: 425px) {
+  
+  .sidepanel {
+    height: 250px;
+    width: 0;
+    position: relative;
+    bottom: 36px;
+    z-index: 2;
+    background-color: black;
+    overflow-x: auto;
+    padding-top: 60px;
+    transition: 0.5s;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+  }
+  
+  .sidepanel.open {
+    min-width: 90vw;
+  }
+  
+  .sidepanel a {
+    padding: 10px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 36px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    padding: 5px 5px;
+    border: none;
+    background-color: #222429;
+    top: 12px;
+    left: 15px;
+    position: relative;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+}

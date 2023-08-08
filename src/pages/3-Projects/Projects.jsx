@@ -15,30 +15,53 @@ function Projects() {
     marginLeft: "55%",
   }
 
+  const isMobile = window.innerWidth < 500;
+
   return (
     <div style={myStyle}>
-      <div className="container">
-        <div className="rectangle">
+      <div className="projects-container">
+        <div className="projects-rectangle">
           <Navbar />
           <Header />
-          <div className="heading">Projects</div>
+          <div className="projects-heading">Projects</div>
           <div className="slider-rectangle">
             <Slider/>
           </div>
           <div className='projects-rectangle-1'>
-        <div className='projects-text-1'>
+            {isMobile ? (
+              <div className='projects-text-1'>
+              Completed Projects
+              <div className='projects-text-1-input'> 4 </div>
+            </div>
+          ) : (
+            <div className='projects-text-1'>
             Completed Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4
           </div>
+          )}
         </div>
         <div className='projects-rectangle-2'>
+        {isMobile ? (
+              <div className='projects-text-2'>
+              Currently Working
+              <div className='projects-text-2-input'> 7 </div>
+            </div>
+          ) : (
           <div className='projects-text-2'>
             Currently Working&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7
           </div>
+          )}
         </div>
         <div className='projects-rectangle-3'>
+        {isMobile ? (
+              <div className='projects-text-3'>
+              Total Projects
+              <div className='projects-text-3-input'> 11 </div>
+            </div>
+          ) : (
           <div className='projects-text-3'>
             Total Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11
           </div>
+          )}
         </div>
         </div>
       </div>
