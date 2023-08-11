@@ -215,7 +215,8 @@
 
 @media (max-width: 425px) {
 
-  @import 'normalize.css';
+  @import '../../../node_modules/normalize.css/normalize.css';
+
    
   .projects-container {
     position: fixed;
