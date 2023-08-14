@@ -73,8 +73,6 @@ function Overview () {
     };
   }, []);
 
-  // el.current.style.fontSize = "32px";
-
   const isMobile = window.innerWidth > 475;
 
   const [isPlaying, setIsPlaying] = useState(false);
@@ -297,4 +295,4 @@ function Overview () {
   );
 }
 
-export default Overview
+export default Overview;
