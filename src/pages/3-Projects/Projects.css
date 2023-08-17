@@ -215,7 +215,7 @@
 
 @media (max-width: 425px) {
 
-  @import '../../../node_modules/normalize.css/normalize.css';
+  @import 'normalize.css';
 
    
   .projects-container {
