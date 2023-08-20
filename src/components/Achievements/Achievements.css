@@ -45,6 +45,16 @@
   flex-direction: column;
 }
 
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  top: 5%;
+  left: 85px;
+
+}
+
 .acv-rectangle-2 p1 {
     font-size: 18px;
     font-weight: 600;
