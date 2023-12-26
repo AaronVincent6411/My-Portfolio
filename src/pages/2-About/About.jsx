@@ -13,7 +13,7 @@ function About() {
 
     useEffect(() => {
         const typed1 = new Typed(myself.current, {
-          strings: ["I am Aaron P Laju , Fourth year Computer Science (AI) student from Adi Shankara Institute Of Engineering and Technology, Kalady. I am currently Community Lead of IEDC ASIET and the former Technical Lead of Hackclub and Technical Co-Lead of Computer Society of India in my college. I was also a part of technical team of GDSC in my college. My basic programming languages are C++ and Python. My interested fields are Machine Learning and Cyber security. I am currently working on Deep Learning project Litter Detection and Fetching using UAV. I have also done many projects at my high school and higher secondary level. I have also participated in different code debugging and competitive coding competitions. My current codechef rating is 1114."],
+          strings: ["I am Aaron P Laju, Final-year Computer Science (AI) student at Adi Shankara Institute Of Engineering and Technology, Kalady. Currently serving as the Community Lead of IEDC ASIET. I bring expertise as a former Technical Lead at Hackclub and Technical Co-Lead at Computer Society of India in my college. Proficient in React and Python. I specialize in Machine Learning. My portfolio includes impactful projects in ML and Web Development, demonstrating my versatility. I also engage in poster designing, showcasing my creative skills alongside my technical expertise. I actively participate in code debugging and competitive coding competitions which will help sharpen my problem-solving skills."],
           startDelay: 200,
           typeSpeed: 20,
           backSpeed: 100,
