@@ -31,11 +31,11 @@ function Projects() {
             {isMobile ? (
               <div className='projects-text-1'>
               Completed Projects
-              <div className='projects-text-1-input'> 5 </div>
+              <div className='projects-text-1-input'> 6 </div>
             </div>
           ) : (
             <div className='projects-text-1'>
-            Completed Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5
+            Completed Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6
           </div>
           )}
         </div>
@@ -55,11 +55,11 @@ function Projects() {
         {isMobile ? (
               <div className='projects-text-3'>
               Total Projects
-              <div className='projects-text-3-input'> 12 </div>
+              <div className='projects-text-3-input'> 13 </div>
             </div>
           ) : (
           <div className='projects-text-3'>
-            Total Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12
+            Total Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13
           </div>
           )}
         </div>

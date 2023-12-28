@@ -275,7 +275,7 @@ function Overview () {
         </div>
         <div className='inner-rectangle-6'>
         <div className='text-6'>
-            Completed Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5
+            Completed Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6
           </div>
         </div>
         <div className='inner-rectangle-7'>
