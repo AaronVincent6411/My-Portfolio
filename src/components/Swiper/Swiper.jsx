@@ -76,13 +76,20 @@ function Slider() {
     },
     {
       id: 10,
+      title: 'Audio Stegnography',
+      description: 'This is a BCA students project and I contributed stegnography python program and applied basic flask methods because they asked my contribution',
+      github: 'https://github.com/martialWarloc/audio-steganography',
+      image: 'https://live.staticflickr.com/65535/53268323492_7804c4c784_h.jpg'
+    },
+    {
+      id: 11,
       title: 'My Flutter App',
       description: 'This project is done as part of enhancing dart and flutter skill',
       github: 'https://github.com/AaronVincent6411/First-Flutter-App',
       image: 'https://live.staticflickr.com/65535/52895341775_2d17fecd3c_c.jpg'
     },
     {
-      id: 11,
+      id: 12,
       title: 'Water Leakage Resolver',
       description: 'This is a project done by me and my team members Benchacko, Jonathan and Sreyas as a part of GDSC Solution Challenge and WOW hackathon.',
       github: 'https://github.com/AaronVincent6411/Water-Leakage-Resolver',

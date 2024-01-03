@@ -73,8 +73,6 @@ function Overview () {
     };
   }, []);
 
-  // el.current.style.fontSize = "32px";
-
   const isMobile = window.innerWidth > 475;
 
   const [isPlaying, setIsPlaying] = useState(false);
@@ -271,13 +269,13 @@ function Overview () {
           </div>
           <div className='text-5-4'>
             <p>
-              <img src="https://img.shields.io/badge/Technical Co Lead Computer Society Of India-EC3750.svg?&style=for-the-badge" />
+              <img src="https://img.shields.io/badge/Community Lead IEDC ASIET-EC3750.svg?&style=for-the-badge" />
             </p>
           </div>
         </div>
         <div className='inner-rectangle-6'>
         <div className='text-6'>
-            Completed Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4
+            Completed Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5
           </div>
         </div>
         <div className='inner-rectangle-7'>
@@ -297,4 +295,4 @@ function Overview () {
   );
 }
 
-export default Overview
+export default Overview;

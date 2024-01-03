@@ -214,6 +214,9 @@
 }
 
 @media (max-width: 425px) {
+
+  @import 'normalize.css';
+
    
   .projects-container {
     position: fixed;
