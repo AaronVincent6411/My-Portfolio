@@ -1,94 +1,58 @@
-import React, { useState } from "react";
+import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
-import { AiOutlineMail, AiFillProject } from 'react-icons/ai';
+import { faHome, faInfoCircle, faCode, faTrophy, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
 import { Link } from 'react-router-dom';
-import './Navbar.css'
-// import { IconName } from "react-icons/md";
-import { GiAchievement, GiSkills } from "react-icons/gi"
+import {SiLinktree} from "react-icons/si";
 
-function Navbar() {
-
-  const Mobileview = window.innerWidth < 500;
-
-  const [isSidepanelOpen, setSidepanelOpen] = useState(false);
-
-  const toggleSidepanel = () => {
-    setSidepanelOpen(!isSidepanelOpen);
-  };
-
-return(
-  <div className="inner-rectangle">
-    {Mobileview ? (
-      // Mobile View
-      <div>
-      <button className="openbtn" onClick={toggleSidepanel}>
-        &#9776;
-      </button>
-      <div className={`sidepanel ${isSidepanelOpen ? "open" : ""}`}>
-        <button className="closebtn" onClick={toggleSidepanel}>
-          &times;
-        </button>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/" onClick={toggleSidepanel}>
-                <FontAwesomeIcon icon={faHome} />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Overview
-              </Link>
-            </li>
-            <li>
-              <Link to="/about" onClick={toggleSidepanel}>
-                <FontAwesomeIcon icon={faInfoCircle} />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; About
-              </Link>
-            </li>
-            <li>
-              <Link to="/projects" onClick={toggleSidepanel}>
-                <AiFillProject />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Projects
-              </Link>
-            </li>
-            <li>
-              <Link to="/competencies" onClick={toggleSidepanel}>
-                <GiSkills />
-                <GiAchievement />&nbsp;&nbsp;Competencies
-              </Link>
-            </li>
-            <li>
-              <Link to="/contact" onClick={toggleSidepanel}>
-                <AiOutlineMail />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contact
-              </Link>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-      ) : (
-        // Laptop and Desktop View
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">
-            <FontAwesomeIcon icon={faHome}/>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Overview
-          </Link>
-        </li>
-        <li>
-          <Link to="/about">
-            <FontAwesomeIcon icon={faInfoCircle}/>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; About
-          </Link>
-        </li>
-        <li>
-          <Link to="/projects"><AiFillProject />&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Projects</Link>
-        </li>
-        <li>
-          <Link to="/competencies"><GiSkills/><GiAchievement />&nbsp;&nbsp;Competencies</Link>
-        </li>
-        <li>
-          <Link to="/contact"><AiOutlineMail/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Contact</Link>
-        </li>
-      </ul>
+const Navbar = () => {
+  return (
+    <nav className='bg-[#141419] flex flex-col mt-20 h-[81.7vh] rounded-bl-[40px] w-[16rem]'>
+        <div className='relative top-[15%] left-[18%] bottom-3/4 right-3/4 text-xl'>
+            <div>
+                <Link to="/" smooth>
+                    <FontAwesomeIcon icon={faHome} />&nbsp;&nbsp;Home
+                </Link>
+            </div>
+            <div className='mt-10'>
+                <Link to="/about" smooth>
+                    <FontAwesomeIcon icon={faInfoCircle}/>&nbsp;&nbsp;About
+                </Link>
+            </div>
+            <div className='mt-10'>
+                <Link to="/projects" smooth>
+                    <FontAwesomeIcon icon={faCode} />&nbsp;&nbsp;Projects
+                </Link>
+            </div>
+            <div className='mt-10'>
+                <Link to="/competencies" smooth>
+                    <FontAwesomeIcon icon={faTrophy} />&nbsp;&nbsp;Competencies
+                </Link>
+            </div>
+            <div className='mt-10'>
+                <Link to="/contact" smooth>
+                    <FontAwesomeIcon icon={faPhone} />&nbsp;&nbsp;Contact
+                </Link>
+            </div>
+        </div>
+        <div className='relative flex flex-wrap gap-10 top-60 left-10'>
+            <Link to="https://github.com/aaronvincent6411" style={{ fontSize: "55px" }} target="_blank">
+                <AiFillGithub/>
+            </Link>
+            <Link  to="https://www.linkedin.com/in/aaronvincent6411/" style={{ fontSize: "55px" }} target="_blank">
+                <AiFillLinkedin/>
+            </Link>
+        </div>
+        <div className='relative flex flex-wrap gap-10 top-72 left-10'>
+            <Link  to="https://www.instagram.com/aaronvincent6411/" style={{ fontSize: "55px" }} target="_blank">
+                <AiFillInstagram/>
+            </Link>
+            <Link  to="https://linktr.ee/aaronvincent11" style={{ fontSize: "55px" }} target="_blank">
+                <SiLinktree/>
+            </Link>
+        </div>
     </nav>
-    )}
-  </div>
- );
+  )
 }
 
 export default Navbar
