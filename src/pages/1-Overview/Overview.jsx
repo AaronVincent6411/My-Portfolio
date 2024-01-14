@@ -265,7 +265,7 @@ function Overview () {
             </p>
           </div>
           <div className='text-5-3'>
-            Current Designations
+            Current Designation
           </div>
           <div className='text-5-4'>
             <p>
